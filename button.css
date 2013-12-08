@@ -1,0 +1,23 @@
+.toggle-button {
+  display: inline-block;
+  margin: 2px;
+  width: 35px;
+  height: 20px;
+  background-color: #bbbbbb;
+  border-radius: 99px;
+  border: 2px solid #eeeeee; }
+.toggle-button .toggle-circle {
+  float: left;
+  height: 20px;
+  width: 20px;
+  background-color: #222222;
+  border-radius: 99px; }
+.toggle-button .border {
+  height: 16px;
+  width: 16px;
+  border: 2px solid #777777; }
+
+.toggled {
+  background-color: #888888; }
+.toggled .toggle-circle {
+  float: right; }

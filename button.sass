@@ -1,0 +1,34 @@
+// sass --watch button.sass:button.css --style sass
+
+$button-bg: #bbb
+$button-border: #eee
+$circle-bg: #222
+$circle-border: #777
+
+.toggle-button
+	display: inline-block
+	margin: 2px
+	width: 35px
+	height: 20px
+	background-color: $button-bg
+	border-radius: 99px	
+	border: 2px solid $button-border
+
+	.toggle-circle
+		float: left
+		height: 20px
+		width: 20px
+		background-color: $circle-bg
+		border-radius: 99px
+
+	.border	
+		height: 16px
+		width: 16px
+		border: 2px solid $circle-border
+
+
+.toggled
+	background-color: #888
+
+	.toggle-circle
+		float: right
