@@ -1,53 +1,49 @@
-var Layout = {
-	setEventListeners: function(){
+var SlideToggle = {}
+
+SlideToggle.setEventListeners = function(){
 		var buttons = document.querySelectorAll('.toggle-button')
 		for(var i = 0; i < buttons.length; i++){
-			buttons[i].addEventListener('click', Button.toggleClick)
+			buttons[i].addEventListener('click', SlideToggle.toggleClick)
 		}
 	}
+
+SlideToggle.toggleClick = function(e){
+	var button = SlideToggle.closestToggleButton(e.target)
+	SlideToggle.toggle(button)
 }
 
-var Button = {}
-
-Button.toggleClick = function(e){
-	var button = Button.closestToggleButton(e.target)
-	console.log(button)
-	Button.toggle(button)
-}
-
-Button.closestToggleButton = function(elem){
+SlideToggle.closestToggleButton = function(elem){
 	while(elem != undefined){
-		if(Button.hasClass(elem, 'toggle-button')){
+		if(SlideToggle.hasClass(elem, 'toggle-button')){
 			return elem
 		}
 		elem = elem.parentNode
 	}
 }
 
-Button.hasClass = function(elem, klass){
+SlideToggle.hasClass = function(elem, klass){
 	return elem.className.split(' ').indexOf(klass) > -1
 }
 
-Button.toggle = function(button){
-	if(Button.hasClass(button, 'toggled')){
-		Button.toggleLeft(button)
+SlideToggle.toggle = function(button){
+	if(SlideToggle.hasClass(button, 'toggled')){
+		SlideToggle.toggleLeft(button)
 	} else { 
-		Button.toggleRight(button)
+		SlideToggle.toggleRight(button)
 	}
 }
 
-Button.toggleRight = function(button){
+SlideToggle.toggleRight = function(button){
 	button.className = button.className + ' toggled'
 }
 
-Button.toggleLeft = function(button){
+SlideToggle.toggleLeft = function(button){
 	var buttonClass = button.className.split(' ')
 	var oldClassPos = buttonClass.indexOf('toggled')
 	buttonClass.splice(oldClassPos, 1)
 	button.className = buttonClass.join(' ')
 }
 
-
 window.onload = function() {
-	Layout.setEventListeners()
+	SlideToggle.setEventListeners()
 }
