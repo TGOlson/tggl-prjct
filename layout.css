@@ -1,9 +1,35 @@
 body {
-	background-color: #c0392b
+	margin: 0;
+	padding: 0;
+	background-color: #c0392b;
 }
 
-.section{
+nav{
+	/*background-color: #fff;*/
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 20px
+}
+.row{
+	width: 100%;
+}
+
+.row h1{
+	text-align: center;
+}
+
+.col{
+	text-align: center;
+	display: inline-block;
+	width: 49%;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid #222;
 }

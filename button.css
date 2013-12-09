@@ -15,9 +15,15 @@
 .toggle-button .border {
   height: 16px;
   width: 16px;
-  border: 2px solid #777777; }
+  border: 2px solid #111111; }
+
+.toggle-button:hover .toggle-circle {
+  background-color: #333333; }
 
 .toggled {
-  background-color: #888888; }
+  background-color: #777777; }
 .toggled .toggle-circle {
   float: right; }
+
+.no-border {
+  border: 0 none; }

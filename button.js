@@ -1,11 +1,13 @@
-var Button = {}
-
-Button.setEventListeners = function(){
-	var buttons = document.querySelectorAll('.toggle-button')
-	for(var i = 0; i < buttons.length; i++){
-		buttons[i].addEventListener('click', Button.toggleClick)
+var Layout = {
+	setEventListeners: function(){
+		var buttons = document.querySelectorAll('.toggle-button')
+		for(var i = 0; i < buttons.length; i++){
+			buttons[i].addEventListener('click', Button.toggleClick)
+		}
 	}
 }
+
+var Button = {}
 
 Button.toggleClick = function(e){
 	var button = Button.closestToggleButton(e.target)
@@ -47,5 +49,5 @@ Button.toggleLeft = function(button){
 
 
 window.onload = function() {
-	Button.setEventListeners()
+	Layout.setEventListeners()
 }
