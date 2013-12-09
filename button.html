@@ -6,76 +6,64 @@
 	<script type="text/javascript" src='button.js'></script>
 	<script type="text/javascript" src='layout.js'></script>
 </head>
-<body>
+<body onload='Layout.init();'>
 
 
-<nav>
-	<h1>Slide Toggle Buttons</h1>
-	<ul>
-		<li>About</li>
-		<li>Features</li>
-		<li>Examples</li>
-		<li>Customize</li>
-		<li>Contribute</li>
-	</ul>
-</nav>
+	<nav>
+		<h1>Slide Toggle Buttons</h1>
+		<ul>
+			<li>About</li>
+			<li>Features</li>
+			<li>Examples</li>
+			<li>Customize</li>
+			<li>Contribute</li>
+		</ul>
+	</nav>
 	
-<div class='row'>
-	<p>Standard</p>
-	<div class='col'>	
-		<pre>toggle-button</pre>
-		<pre>toggle-circle</pre>
-		<div class='toggle-button'>
-			<div class='toggle-circle'></div>
-		</div>	
-	</div>
+	<div class='row'>
+		<p>Standard</p>
+		<div class='col'>	
+			<div class='toggle-button'>
+				<div class='toggle-circle'></div>
+			</div>	
+		</div>
 
-	<div class='col'>	
-		<pre>toggle-button toggled</pre>
-		<pre>toggle-circle</pre>
-		<div class='toggle-button toggled'>
-			<div class='toggle-circle'></div>
+		<div class='col'>	
+			<div class='toggle-button toggled'>
+				<div class='toggle-circle'></div>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class='row'>
-	<p>Border Types</p>
-	<div class='col'>	
-		<pre>toggle-button no-border</pre>
-		<pre>toggle-circle</pre>
-		<div class='toggle-button no-border'>
-			<div class='toggle-circle'></div>
-		</div>	
-	</div>
+	<div class='row'>
+		<p>Border Types</p>
+		<div class='col'>	
+			<div class='toggle-button no-border'>
+				<div class='toggle-circle'></div>
+			</div>	
+		</div>
 
-	<div class='col' id='tb-border'>	
-		<pre>toggle-button</pre>
-		<pre>toggle-circle border</pre>
-		<div class='toggle-button'>
-			<div class='toggle-circle border'></div>
+		<div class='col'>	
+			<div class='toggle-button'>
+				<div class='toggle-circle border'></div>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class='row'>
-	<p>Hover Effects</p>
-	<div class='col'>	
-		<pre>toggle-button</pre>
-		<pre>toggle-circle no-hover</pre>
-		<div class='toggle-button no-hover'>
-			<div class='toggle-circle'></div>
-		</div>	
-	</div>
+	<div class='row'>
+		<p>Hover Effects</p>
+		<div class='col'>	
+			<div class='toggle-button no-hover'>
+				<div class='toggle-circle'></div>
+			</div>	
+		</div>
 
-	<div class='col' id='tb-border'>	
-		<pre>toggle-button</pre>
-		<pre>toggle-circle border</pre>
-		<div class='toggle-button'>
-			<div class='toggle-circle border'></div>
+		<div class='col'>	
+			<div class='toggle-button'>
+				<div class='toggle-circle border'></div>
+			</div>
 		</div>
 	</div>
-</div>
 
 
 </body>

@@ -1,25 +1,32 @@
 var Layout = {}
 
-Layout.setPreLabels = function(){
-	// var buttons = Layout.findAllButtons()
-	// for(var i = 0; i < buttons.length; i++){
-	// 	var buttonClass = Layout.getButtonClass(buttons[i])
-	// 	Layout.appendClass(buttons[i], buttonClass)
-	// }
+Layout.init = function(){
+	var buttons = Layout.getAllClassTags('.toggle-button')
+	var circles = Layout.getAllClassTags('.toggle-circle')
+	Layout.appendClassTagsToDivs(buttons, circles)
 }
 
-Layout.findAllButtons = function(){
-	// return document.querySelectorAll('.toggle-button')
+Layout.getAllClassTags = function(klass){
+	var elems = Layout.findAll(klass)
+	return Layout.mapListToClasses(elems)
 }
 
-Layout.getButtonClass = function(button){
-	// return button.className
+Layout.findAll = function(elem){
+	return document.querySelectorAll(elem)
 }
 
-Layout.appendClass = function(elem, klass){
-	// elem.parentNode.innerHTML += '<pre>' + klass + '</pre>'
+Layout.mapListToClasses = function(elems){
+	var classNames = []
+	for(var i = 0; i < elems.length; i++){
+		classNames.push( elems[i].className )
+	}
+	return classNames
 }
 
-// window.onload = function() {
-// 	// Layout.setPreLabels()
-// }
+Layout.appendClassTagsToDivs = function(buttons, circles){
+	var cols = Layout.findAll('.col')
+	for(var i = 0; i < cols.length; i++){
+		cols[i].innerHTML += '<pre>' + buttons[i] + '</pre>' + 
+	 						 '<pre>' + circles[i] + '</pre>'
+	}
+}
