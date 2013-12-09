@@ -4,6 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="button.css">
 	<link rel="stylesheet" type="text/css" href="layout.css">
 	<script type="text/javascript" src='button.js'></script>
+	<script type="text/javascript" src='layout.js'></script>
 </head>
 <body>
 
@@ -20,7 +21,7 @@
 </nav>
 	
 <div class='row'>
-	<h1>Standard</h1>
+	<p>Standard</p>
 	<div class='col'>	
 		<pre>toggle-button</pre>
 		<pre>toggle-circle</pre>
@@ -39,11 +40,30 @@
 </div>
 
 <div class='row'>
-	<h1>Border Types</h1>
+	<p>Border Types</p>
 	<div class='col'>	
 		<pre>toggle-button no-border</pre>
 		<pre>toggle-circle</pre>
 		<div class='toggle-button no-border'>
+			<div class='toggle-circle'></div>
+		</div>	
+	</div>
+
+	<div class='col' id='tb-border'>	
+		<pre>toggle-button</pre>
+		<pre>toggle-circle border</pre>
+		<div class='toggle-button'>
+			<div class='toggle-circle border'></div>
+		</div>
+	</div>
+</div>
+
+<div class='row'>
+	<p>Hover Effects</p>
+	<div class='col'>	
+		<pre>toggle-button</pre>
+		<pre>toggle-circle no-hover</pre>
+		<div class='toggle-button no-hover'>
 			<div class='toggle-circle'></div>
 		</div>	
 	</div>

@@ -22,7 +22,8 @@ nav ul li{
 	width: 100%;
 }
 
-.row h1{
+.row p{
+	color: #ddd;
 	text-align: center;
 }
 
