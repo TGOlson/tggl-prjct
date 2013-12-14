@@ -1,15 +1,15 @@
 .toggle-button {
-  display: inline-block;
-  margin: 2px;
   width: 35px;
   height: 20px;
+  display: inline-block;
+  margin: 2px;
   background-color: #e74c3c;
   border-radius: 99px;
   border: 2px solid #bf2718; }
 .toggle-button .toggle-circle {
-  float: left;
-  height: 20px;
   width: 20px;
+  height: 20px;
+  float: left;
   background-color: #ffd6d1;
   border-radius: 99px; }
 .toggle-button .border {
@@ -25,21 +25,35 @@
 .toggled .toggle-circle {
   float: right; }
 
+.no-bg-toggle {
+  background-color: #e74c3c; }
+
 .no-border {
   border: 0 none; }
 
 .no-hover:hover .toggle-circle {
   background-color: #ffd6d1; }
 
+.bg-hover:hover {
+  background-color: #ea6153; }
+
 .expand-hover:hover .toggle-circle {
-  width: 24px; }
+  width: 24px;
+  height: 20px; }
+
+.tiny {
+  width: 24.5px;
+  height: 14px; }
+.tiny .toggle-circle {
+  width: 14px;
+  height: 14px; }
 
 .small {
-  width: 28px;
-  height: 16px; }
+  width: 29.75px;
+  height: 17px; }
 .small .toggle-circle {
-  width: 16px;
-  height: 16px; }
+  width: 17px;
+  height: 17px; }
 
 .large {
   width: 42px;
@@ -47,3 +61,21 @@
 .large .toggle-circle {
   width: 24px;
   height: 24px; }
+
+.tall {
+  width: 35px;
+  height: 24px; }
+.tall .toggle-circle {
+  width: 24px;
+  height: 24px; }
+
+.long {
+  width: 42px;
+  height: 20px; }
+.long .toggle-circle {
+  width: 20px;
+  height: 20px; }
+
+.toggle-button .pill {
+  width: 24px;
+  height: 20px; }

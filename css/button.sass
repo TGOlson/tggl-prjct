@@ -9,22 +9,26 @@ $circle-bg: #FFD6D1
 
 $std-circle-dim: 20px
 
+@mixin button-sizing($x-scale, $y-scale)
+	width: $std-button-width * $x-scale
+	height: $std-button-height * $y-scale
+
+@mixin circle-sizing($x-scale, $y-scale)
+	width: $std-circle-dim * $x-scale
+	height: $std-circle-dim * $y-scale
+
 .toggle-button
+	@include button-sizing(1.0, 1.0)
 	display: inline-block
 	margin: 2px
-	width: $std-button-width
-	height: $std-button-height
 	background-color: $button-bg
 	border-radius: 99px	
 	border: 2px solid darken($button-bg, 15%)
-
 	.toggle-circle
+		@include circle-sizing(1.0, 1.0)
 		float: left
-		height: $std-circle-dim
-		width: $std-circle-dim
 		background-color: $circle-bg
 		border-radius: 99px
-
 	.border	
 		height: 16px
 		width: 16px
@@ -35,9 +39,11 @@ $std-circle-dim: 20px
 
 .toggled
 	background-color: darken($button-bg, 15%)
-
 	.toggle-circle
 		float: right
+
+.no-bg-toggle
+	background-color: $button-bg
 
 .no-border
 	border: 0 none
@@ -45,21 +51,39 @@ $std-circle-dim: 20px
 .no-hover:hover .toggle-circle
 	background-color: $circle-bg
 
+.bg-hover:hover
+	background-color: lighten($button-bg, 5%)
+
 .expand-hover:hover .toggle-circle
-	width: $std-circle-dim * 1.2
+	@include circle-sizing(1.2, 1.0)
+
+.tiny
+	@include button-sizing(0.7, 0.7)
+	.toggle-circle
+		@include circle-sizing(0.7, 0.7)
 
 .small
-	width: $std-button-width * 0.8
-	height: $std-button-height * 0.8
-
+	@include button-sizing(0.85, 0.85)
 	.toggle-circle
-		width: $std-circle-dim * 0.8
-		height: $std-circle-dim * 0.8
+		@include circle-sizing(0.85, 0.85)
 
 .large
-	width: $std-button-width * 1.2
-	height: $std-button-height * 1.2
-
+	@include button-sizing(1.2, 1.2)
 	.toggle-circle
-		width: $std-circle-dim * 1.2
-		height: $std-circle-dim * 1.2
+		@include circle-sizing(1.2, 1.2)
+
+.tall
+	@include button-sizing(1.0, 1.2)
+	.toggle-circle
+		@include circle-sizing(1.2, 1.2)
+
+.long
+	@include button-sizing(1.2, 1.0)
+	.toggle-circle
+		@include circle-sizing(1.0, 1.0)
+
+.toggle-button 
+	.pill
+		@include circle-sizing(1.2, 1.0)
+
+
