@@ -12,6 +12,9 @@
   background-color: #e74c3c; }
 .toggle-button.bg-hover:hover {
   background-color: #ea6153; }
+.toggle-button .toggle-circle.pill {
+  width: 24px;
+  height: 20px; }
 .toggle-button .toggle-circle {
   background-color: white;
   width: 20px;
@@ -111,12 +114,18 @@
 .tiny {
   width: 24.5px;
   height: 14px; }
+.tiny .toggle-circle.pill {
+  width: 16.8px;
+  height: 14px; }
 .tiny .toggle-circle {
   width: 14px;
   height: 14px; }
 
 .small {
   width: 29.75px;
+  height: 17px; }
+.small .toggle-circle.pill {
+  width: 20.4px;
   height: 17px; }
 .small .toggle-circle {
   width: 17px;
@@ -125,12 +134,18 @@
 .large {
   width: 42px;
   height: 24px; }
+.large .toggle-circle.pill {
+  width: 28.8px;
+  height: 24px; }
 .large .toggle-circle {
   width: 24px;
   height: 24px; }
 
 .tall {
   width: 35px;
+  height: 24px; }
+.tall .toggle-circle.pill {
+  width: 24px;
   height: 24px; }
 .tall .toggle-circle {
   width: 24px;
@@ -139,10 +154,9 @@
 .long {
   width: 42px;
   height: 20px; }
+.long .toggle-circle.pill {
+  width: 28.8px;
+  height: 20px; }
 .long .toggle-circle {
   width: 20px;
-  height: 20px; }
-
-.toggle-button .pill {
-  width: 24px;
   height: 20px; }

@@ -13,9 +13,14 @@ $std-button-height: 20px
 $circle-bg: #ffffff
 $std-circle-dim: 20px
 
+
 @mixin button-sizing($x-scale, $y-scale)
 	width: $std-button-width * $x-scale
 	height: $std-button-height * $y-scale
+	.toggle-circle
+		&.pill
+			width: $std-circle-dim * $x-scale * 1.2
+			height: $std-circle-dim * $y-scale
 
 @mixin circle-sizing($x-scale, $y-scale)
 	width: $std-circle-dim * $x-scale
@@ -103,8 +108,3 @@ $std-circle-dim: 20px
 	@include button-sizing(1.2, 1.0)
 	.toggle-circle
 		@include circle-sizing(1.0, 1.0)
-
-
-.toggle-button 
-	.pill
-		@include circle-sizing(1.2, 1.0)
