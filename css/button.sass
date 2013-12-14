@@ -7,12 +7,10 @@ $button-bg-grey: #7f8c8d
 $button-bg-orange: #e67e22
 $button-bg-purple: #8e44ad
 $button-bg-yellow: #f1c40f
-
 $std-button-width: 35px
 $std-button-height: 20px
 
 $circle-bg: #ffffff
-
 $std-circle-dim: 20px
 
 @mixin button-sizing($x-scale, $y-scale)
@@ -39,20 +37,38 @@ $std-circle-dim: 20px
 	display: inline-block
 	margin: 2px
 	border-radius: 99px	
+
 	.toggle-circle
 		background-color: $circle-bg
 		@include circle-sizing(1.0, 1.0)
 		float: left
 		border-radius: 99px
+
 	.border	
 		@include circle-sizing(0.8, 0.8)
 		border: 2px solid darken($circle-bg, 25%)
+
 	&:hover .toggle-circle
 		background-color: transparentize($circle-bg, 0.2)
 
 .toggled
 	.toggle-circle
 		float: right
+
+.red
+	@include button-color-scheme($button-bg-red)
+.blue
+	@include button-color-scheme($button-bg-blue)
+.green
+	@include button-color-scheme($button-bg-green)
+.grey
+	@include button-color-scheme($button-bg-grey)
+.orange
+	@include button-color-scheme($button-bg-orange)
+.purple
+	@include button-color-scheme($button-bg-purple)
+.yellow
+	@include button-color-scheme($button-bg-yellow)
 
 .no-border
 	border: 0 none
@@ -88,25 +104,7 @@ $std-circle-dim: 20px
 	.toggle-circle
 		@include circle-sizing(1.0, 1.0)
 
+
 .toggle-button 
 	.pill
 		@include circle-sizing(1.2, 1.0)
-
-.blue
-	@include button-color-scheme($button-bg-blue)
-
-.green
-	@include button-color-scheme($button-bg-green)
-
-.grey
-	@include button-color-scheme($button-bg-grey)
-
-.orange
-	@include button-color-scheme($button-bg-orange)
-
-.purple
-	@include button-color-scheme($button-bg-purple)
-
-.yellow
-	@include button-color-scheme($button-bg-yellow)
-

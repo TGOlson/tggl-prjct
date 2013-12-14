@@ -28,54 +28,15 @@
 .toggled .toggle-circle {
   float: right; }
 
-.no-border {
-  border: 0 none; }
-
-.no-hover:hover .toggle-circle {
-  background-color: white; }
-
-.expand-hover:hover .toggle-circle {
-  width: 24px;
-  height: 20px; }
-
-.tiny {
-  width: 24.5px;
-  height: 14px; }
-.tiny .toggle-circle {
-  width: 14px;
-  height: 14px; }
-
-.small {
-  width: 29.75px;
-  height: 17px; }
-.small .toggle-circle {
-  width: 17px;
-  height: 17px; }
-
-.large {
-  width: 42px;
-  height: 24px; }
-.large .toggle-circle {
-  width: 24px;
-  height: 24px; }
-
-.tall {
-  width: 35px;
-  height: 24px; }
-.tall .toggle-circle {
-  width: 24px;
-  height: 24px; }
-
-.long {
-  width: 42px;
-  height: 20px; }
-.long .toggle-circle {
-  width: 20px;
-  height: 20px; }
-
-.toggle-button .pill {
-  width: 24px;
-  height: 20px; }
+.red {
+  background-color: #e74c3c;
+  border: 2px solid #bf2718; }
+.red.toggled {
+  background-color: #bf2718; }
+.red.no-bg-toggle {
+  background-color: #e74c3c; }
+.red.bg-hover:hover {
+  background-color: #ea6153; }
 
 .blue {
   background-color: #3498db;
@@ -136,3 +97,52 @@
   background-color: #f1c40f; }
 .yellow.bg-hover:hover {
   background-color: #f2ca27; }
+
+.no-border {
+  border: 0 none; }
+
+.no-hover:hover .toggle-circle {
+  background-color: white; }
+
+.expand-hover:hover .toggle-circle {
+  width: 24px;
+  height: 20px; }
+
+.tiny {
+  width: 24.5px;
+  height: 14px; }
+.tiny .toggle-circle {
+  width: 14px;
+  height: 14px; }
+
+.small {
+  width: 29.75px;
+  height: 17px; }
+.small .toggle-circle {
+  width: 17px;
+  height: 17px; }
+
+.large {
+  width: 42px;
+  height: 24px; }
+.large .toggle-circle {
+  width: 24px;
+  height: 24px; }
+
+.tall {
+  width: 35px;
+  height: 24px; }
+.tall .toggle-circle {
+  width: 24px;
+  height: 24px; }
+
+.long {
+  width: 42px;
+  height: 20px; }
+.long .toggle-circle {
+  width: 20px;
+  height: 20px; }
+
+.toggle-button .pill {
+  width: 24px;
+  height: 20px; }
