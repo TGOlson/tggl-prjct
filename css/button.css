@@ -1,41 +1,38 @@
 .toggle-button {
+  background-color: #e74c3c;
+  border: 2px solid #bf2718;
   width: 35px;
   height: 20px;
   display: inline-block;
   margin: 2px;
-  background-color: #e74c3c;
-  border-radius: 99px;
-  border: 2px solid #bf2718; }
+  border-radius: 99px; }
+.toggle-button.toggled {
+  background-color: #bf2718; }
+.toggle-button.no-bg-toggle {
+  background-color: #e74c3c; }
+.toggle-button.bg-hover:hover {
+  background-color: #ea6153; }
 .toggle-button .toggle-circle {
+  background-color: white;
   width: 20px;
   height: 20px;
   float: left;
-  background-color: #ffd6d1;
   border-radius: 99px; }
 .toggle-button .border {
-  height: 16px;
   width: 16px;
-  border: 2px solid #ff9285; }
-
+  height: 16px;
+  border: 2px solid #bfbfbf; }
 .toggle-button:hover .toggle-circle {
-  background-color: #ffedeb; }
+  background-color: rgba(255, 255, 255, 0.8); }
 
-.toggled {
-  background-color: #bf2718; }
 .toggled .toggle-circle {
   float: right; }
-
-.no-bg-toggle {
-  background-color: #e74c3c; }
 
 .no-border {
   border: 0 none; }
 
 .no-hover:hover .toggle-circle {
-  background-color: #ffd6d1; }
-
-.bg-hover:hover {
-  background-color: #ea6153; }
+  background-color: white; }
 
 .expand-hover:hover .toggle-circle {
   width: 24px;
@@ -79,3 +76,63 @@
 .toggle-button .pill {
   width: 24px;
   height: 20px; }
+
+.blue {
+  background-color: #3498db;
+  border: 2px solid #1d6fa5; }
+.blue.toggled {
+  background-color: #1d6fa5; }
+.blue.no-bg-toggle {
+  background-color: #3498db; }
+.blue.bg-hover:hover {
+  background-color: #4aa3df; }
+
+.green {
+  background-color: #27ae60;
+  border: 2px solid #19703e; }
+.green.toggled {
+  background-color: #19703e; }
+.green.no-bg-toggle {
+  background-color: #27ae60; }
+.green.bg-hover:hover {
+  background-color: #2cc36b; }
+
+.grey {
+  background-color: #7f8c8d;
+  border: 2px solid #5a6465; }
+.grey.toggled {
+  background-color: #5a6465; }
+.grey.no-bg-toggle {
+  background-color: #7f8c8d; }
+.grey.bg-hover:hover {
+  background-color: #8c9899; }
+
+.orange {
+  background-color: #e67e22;
+  border: 2px solid #a85913; }
+.orange.toggled {
+  background-color: #a85913; }
+.orange.no-bg-toggle {
+  background-color: #e67e22; }
+.orange.bg-hover:hover {
+  background-color: #e98b39; }
+
+.purple {
+  background-color: #8e44ad;
+  border: 2px solid #612e76; }
+.purple.toggled {
+  background-color: #612e76; }
+.purple.no-bg-toggle {
+  background-color: #8e44ad; }
+.purple.bg-hover:hover {
+  background-color: #9b50ba; }
+
+.yellow {
+  background-color: #f1c40f;
+  border: 2px solid #aa8a0a; }
+.yellow.toggled {
+  background-color: #aa8a0a; }
+.yellow.no-bg-toggle {
+  background-color: #f1c40f; }
+.yellow.bg-hover:hover {
+  background-color: #f2ca27; }

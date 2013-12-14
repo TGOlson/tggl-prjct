@@ -1,11 +1,17 @@
 // sass --watch css/button.sass:css/button.css --style sass
 
-$button-bg: #e74c3c
+$button-bg-red: #e74c3c
+$button-bg-blue: #3498db
+$button-bg-green: #27ae60
+$button-bg-grey: #7f8c8d
+$button-bg-orange: #e67e22
+$button-bg-purple: #8e44ad
+$button-bg-yellow: #f1c40f
 
 $std-button-width: 35px
 $std-button-height: 20px
 
-$circle-bg: #FFD6D1
+$circle-bg: #ffffff
 
 $std-circle-dim: 20px
 
@@ -17,42 +23,42 @@ $std-circle-dim: 20px
 	width: $std-circle-dim * $x-scale
 	height: $std-circle-dim * $y-scale
 
+@mixin button-color-scheme($button-color)
+	background-color: $button-color
+	border: 2px solid darken($button-color, 15%)
+	&.toggled	
+		background-color: darken($button-color, 15%)
+	&.no-bg-toggle
+		background-color: $button-color
+	&.bg-hover:hover
+		background-color: lighten($button-color, 5%)
+
 .toggle-button
+	@include button-color-scheme($button-bg-red)
 	@include button-sizing(1.0, 1.0)
 	display: inline-block
 	margin: 2px
-	background-color: $button-bg
 	border-radius: 99px	
-	border: 2px solid darken($button-bg, 15%)
 	.toggle-circle
+		background-color: $circle-bg
 		@include circle-sizing(1.0, 1.0)
 		float: left
-		background-color: $circle-bg
 		border-radius: 99px
 	.border	
-		height: 16px
-		width: 16px
-		border: 2px solid darken($circle-bg, 15%)
-
-.toggle-button:hover .toggle-circle
-	background-color: lighten($circle-bg, 5%)
+		@include circle-sizing(0.8, 0.8)
+		border: 2px solid darken($circle-bg, 25%)
+	&:hover .toggle-circle
+		background-color: transparentize($circle-bg, 0.2)
 
 .toggled
-	background-color: darken($button-bg, 15%)
 	.toggle-circle
 		float: right
-
-.no-bg-toggle
-	background-color: $button-bg
 
 .no-border
 	border: 0 none
 
 .no-hover:hover .toggle-circle
 	background-color: $circle-bg
-
-.bg-hover:hover
-	background-color: lighten($button-bg, 5%)
 
 .expand-hover:hover .toggle-circle
 	@include circle-sizing(1.2, 1.0)
@@ -86,4 +92,21 @@ $std-circle-dim: 20px
 	.pill
 		@include circle-sizing(1.2, 1.0)
 
+.blue
+	@include button-color-scheme($button-bg-blue)
+
+.green
+	@include button-color-scheme($button-bg-green)
+
+.grey
+	@include button-color-scheme($button-bg-grey)
+
+.orange
+	@include button-color-scheme($button-bg-orange)
+
+.purple
+	@include button-color-scheme($button-bg-purple)
+
+.yellow
+	@include button-color-scheme($button-bg-yellow)
 
