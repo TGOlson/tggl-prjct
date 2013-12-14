@@ -20,12 +20,13 @@ nav ul li{
 }
 
 #main{
-	width: 700px;
+	width: 800;
 	margin: auto;
 	text-align: center;
 }
 .row{
 	display: inline-block;
+	width: 100%;
 }
 
 .row p{
@@ -33,10 +34,12 @@ nav ul li{
 	text-align: center;
 }
 
+.row .info{
+	text-align: left;
+}
+
 .col{
-	margin: auto;
-	text-align: center;
 	display: inline-block;
-	width: 230px;
-	margin-bottom: 15px;
+	width: 120px;
+	margin: 10px 70px;
 }

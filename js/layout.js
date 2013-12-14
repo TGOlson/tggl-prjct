@@ -33,9 +33,9 @@ Layout.mapListToClasses = function(elems){
 }
 
 Layout.appendClassTagsToDivs = function(buttons, circles){
-	var cols = Layout.findAll('.info')
-	for(var i = 0; i < cols.length; i++){
-		cols[i].innerHTML = '<pre>' + buttons[i] + '</pre>' + 
+	var infos = Layout.findAll('.info')
+	for(var i = 0; i < infos.length; i++){
+		infos[i].innerHTML = '<pre>' + buttons[i] + '</pre>' + 
 	 						 '<pre>' + circles[i] + '</pre>'
 	}
 }
