@@ -3,25 +3,25 @@
   margin: 2px;
   width: 35px;
   height: 20px;
-  background-color: #bbbbbb;
+  background-color: #e74c3c;
   border-radius: 99px;
-  border: 2px solid #eeeeee; }
+  border: 2px solid #bf2718; }
 .toggle-button .toggle-circle {
   float: left;
   height: 20px;
   width: 20px;
-  background-color: #222222;
+  background-color: #ffd6d1;
   border-radius: 99px; }
 .toggle-button .border {
   height: 16px;
   width: 16px;
-  border: 2px solid #111111; }
+  border: 2px solid #ff9285; }
 
 .toggle-button:hover .toggle-circle {
-  background-color: #333333; }
+  background-color: #ffedeb; }
 
 .toggled {
-  background-color: #777777; }
+  background-color: #bf2718; }
 .toggled .toggle-circle {
   float: right; }
 
@@ -29,4 +29,21 @@
   border: 0 none; }
 
 .no-hover:hover .toggle-circle {
-  background-color: #222222; }
+  background-color: #ffd6d1; }
+
+.expand-hover:hover .toggle-circle {
+  width: 24px; }
+
+.small {
+  width: 28px;
+  height: 16px; }
+.small .toggle-circle {
+  width: 16px;
+  height: 16px; }
+
+.large {
+  width: 42px;
+  height: 24px; }
+.large .toggle-circle {
+  width: 24px;
+  height: 24px; }

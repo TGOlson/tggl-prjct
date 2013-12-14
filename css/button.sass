@@ -1,39 +1,40 @@
 // sass --watch css/button.sass:css/button.css --style sass
 
-$button-bg: #bbb
-$button-bg-toggled: #777
-$button-border: #eee
+$button-bg: #e74c3c
 
-$circle-bg: #222
-$circle-bg-hover: #333
-$circle-border: #111
+$std-button-width: 35px
+$std-button-height: 20px
+
+$circle-bg: #FFD6D1
+
+$std-circle-dim: 20px
 
 .toggle-button
 	display: inline-block
 	margin: 2px
-	width: 35px
-	height: 20px
+	width: $std-button-width
+	height: $std-button-height
 	background-color: $button-bg
 	border-radius: 99px	
-	border: 2px solid $button-border
+	border: 2px solid darken($button-bg, 15%)
 
 	.toggle-circle
 		float: left
-		height: 20px
-		width: 20px
+		height: $std-circle-dim
+		width: $std-circle-dim
 		background-color: $circle-bg
 		border-radius: 99px
 
 	.border	
 		height: 16px
 		width: 16px
-		border: 2px solid $circle-border
+		border: 2px solid darken($circle-bg, 15%)
 
 .toggle-button:hover .toggle-circle
-	background-color: $circle-bg-hover
+	background-color: lighten($circle-bg, 5%)
 
 .toggled
-	background-color: $button-bg-toggled
+	background-color: darken($button-bg, 15%)
 
 	.toggle-circle
 		float: right
@@ -43,3 +44,22 @@ $circle-border: #111
 
 .no-hover:hover .toggle-circle
 	background-color: $circle-bg
+
+.expand-hover:hover .toggle-circle
+	width: $std-circle-dim * 1.2
+
+.small
+	width: $std-button-width * 0.8
+	height: $std-button-height * 0.8
+
+	.toggle-circle
+		width: $std-circle-dim * 0.8
+		height: $std-circle-dim * 0.8
+
+.large
+	width: $std-button-width * 1.2
+	height: $std-button-height * 1.2
+
+	.toggle-circle
+		width: $std-circle-dim * 1.2
+		height: $std-circle-dim * 1.2

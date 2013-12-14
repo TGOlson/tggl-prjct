@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #c0392b;
+	background-color: #eee;
 }
 
 nav{
@@ -18,18 +18,25 @@ nav ul li{
 	display: inline-block;
 	margin: 0 20px
 }
+
+#main{
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
 .row{
-	width: 100%;
+	display: inline-block;
 }
 
 .row p{
-	color: #ddd;
+	color: #222;
 	text-align: center;
 }
 
 .col{
+	margin: auto;
 	text-align: center;
 	display: inline-block;
-	width: 49%;
+	width: 230px;
 	margin-bottom: 15px;
 }
