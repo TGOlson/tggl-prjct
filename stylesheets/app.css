@@ -7462,3 +7462,8 @@ h5 {
   margin-top: 25px;
   margin-bottom: -10px;
 }
+
+/* line 62, ../scss/app.scss */
+.panel.no-bg {
+  background-color: #fff;
+}
