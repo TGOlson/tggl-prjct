@@ -26,7 +26,7 @@ SlideToggle.hasClass = function(elem, klass){
 }
 
 SlideToggle.toggle = function(button){
-	if(SlideToggle.hasClass(button, 'tggl-toggled')){
+	if(SlideToggle.hasClass(button, 'toggled')){
 		SlideToggle.toggleLeft(button)
 	} else {
 		SlideToggle.toggleRight(button)
@@ -34,12 +34,12 @@ SlideToggle.toggle = function(button){
 }
 
 SlideToggle.toggleRight = function(button){
-	button.className = button.className + ' tggl-toggled'
+	button.className = button.className + ' toggled'
 }
 
 SlideToggle.toggleLeft = function(button){
 	var buttonClass = button.className.split(' ')
-	var oldClassPos = buttonClass.indexOf('tggl-toggled')
+	var oldClassPos = buttonClass.indexOf('toggled')
 	buttonClass.splice(oldClassPos, 1)
 	button.className = buttonClass.join(' ')
 }
