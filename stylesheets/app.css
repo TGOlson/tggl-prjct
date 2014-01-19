@@ -7444,3 +7444,10 @@ pre {
   display: inline-block;
   padding: 2px 5px;
 }
+
+/* line 42, ../scss/app.scss */
+footer {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 20px;
+}

@@ -1,5 +1,5 @@
 /* line 77, ../scss/tggl.sass */
-.toggle-button {
+.tggl-button {
   background-color: #e74c3c;
   border: 2px solid #bf2718;
   width: 35px;
@@ -11,117 +11,117 @@
   box-sizing: content-box;
 }
 /* line 68, ../scss/tggl.sass */
-.toggle-button.toggled {
+.tggl-button.tggl-toggled {
   background-color: #bf2718;
 }
 /* line 71, ../scss/tggl.sass */
-.toggle-button.no-bg-toggle {
+.tggl-button.tggl-no-bg-toggle {
   background-color: #e74c3c;
 }
 /* line 74, ../scss/tggl.sass */
-.toggle-button.bg-hover:hover {
+.tggl-button.tggl-bg-hover:hover {
   background-color: #ea6153;
 }
 /* line 23, ../scss/tggl.sass */
-.toggle-button .toggle-circle.pill {
+.tggl-button .tggl-circle.tggl-pill {
   width: 24px;
   height: 20px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button .toggle-circle.pill.border {
+.tggl-button .tggl-circle.tggl-pill.tggl-border {
   width: 20px;
   height: 16px;
   border: 2px solid #bfbfbf;
 }
 /* line 26, ../scss/tggl.sass */
-.toggle-button.expand-hover:hover .toggle-circle {
+.tggl-button.tggl-expand-hover:hover .tggl-circle {
   width: 24px;
   height: 20px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button.expand-hover:hover .toggle-circle.border {
+.tggl-button.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 20px;
   height: 16px;
   border: 2px solid #bfbfbf;
 }
 /* line 29, ../scss/tggl.sass */
-.toggle-button.tall {
+.tggl-button.tggl-tall {
   width: 35px;
   height: 24px;
 }
 /* line 33, ../scss/tggl.sass */
-.toggle-button.tall .toggle-circle {
+.tggl-button.tggl-tall .tggl-circle {
   width: 24px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button.tall .toggle-circle.border {
+.tggl-button.tggl-tall .tggl-circle.tggl-border {
   width: 20px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 36, ../scss/tggl.sass */
-.toggle-button.tall .toggle-circle.pill {
+.tggl-button.tggl-tall .tggl-circle.tggl-pill {
   width: 29px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button.tall .toggle-circle.pill.border {
+.tggl-button.tggl-tall .tggl-circle.tggl-pill.tggl-border {
   width: 25px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 39, ../scss/tggl.sass */
-.toggle-button.tall.expand-hover:hover .toggle-circle {
+.tggl-button.tggl-tall.tggl-expand-hover:hover .tggl-circle {
   width: 29px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button.tall.expand-hover:hover .toggle-circle.border {
+.tggl-button.tggl-tall.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 25px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 42, ../scss/tggl.sass */
-.toggle-button.long {
+.tggl-button.tggl-long {
   width: 42px;
   height: 20px;
 }
 /* line 46, ../scss/tggl.sass */
-.toggle-button.long .toggle-circle {
+.tggl-button.tggl-long .tggl-circle {
   width: 20px;
   height: 20px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button.long .toggle-circle.border {
+.tggl-button.tggl-long .tggl-circle.tggl-border {
   width: 16px;
   height: 16px;
   border: 2px solid #bfbfbf;
 }
 /* line 49, ../scss/tggl.sass */
-.toggle-button.long .toggle-circle.pill {
+.tggl-button.tggl-long .tggl-circle.tggl-pill {
   width: 29px;
   height: 20px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button.long .toggle-circle.pill.border {
+.tggl-button.tggl-long .tggl-circle.tggl-pill.tggl-border {
   width: 25px;
   height: 16px;
   border: 2px solid #bfbfbf;
 }
 /* line 52, ../scss/tggl.sass */
-.toggle-button.long.expand-hover:hover .toggle-circle {
+.tggl-button.tggl-long.tggl-expand-hover:hover .tggl-circle {
   width: 29px;
   height: 20px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button.long.expand-hover:hover .toggle-circle.border {
+.tggl-button.tggl-long.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 25px;
   height: 16px;
   border: 2px solid #bfbfbf;
 }
 /* line 86, ../scss/tggl.sass */
-.toggle-button .toggle-circle {
+.tggl-button .tggl-circle {
   background-color: white;
   width: 20px;
   height: 20px;
@@ -129,612 +129,612 @@
   border-radius: 99px;
 }
 /* line 59, ../scss/tggl.sass */
-.toggle-button .toggle-circle.border {
+.tggl-button .tggl-circle.tggl-border {
   width: 16px;
   height: 16px;
   border: 2px solid #bfbfbf;
 }
 /* line 92, ../scss/tggl.sass */
-.toggle-button:hover .toggle-circle {
+.tggl-button:hover .tggl-circle {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* line 96, ../scss/tggl.sass */
-.toggled .toggle-circle {
+.tggl-toggled .tggl-circle {
   float: right;
 }
 
 /* line 99, ../scss/tggl.sass */
-.red {
+.tggl-red {
   background-color: #e74c3c;
   border: 2px solid #bf2718;
 }
 /* line 68, ../scss/tggl.sass */
-.red.toggled {
+.tggl-red.tggl-toggled {
   background-color: #bf2718;
 }
 /* line 71, ../scss/tggl.sass */
-.red.no-bg-toggle {
+.tggl-red.tggl-no-bg-toggle {
   background-color: #e74c3c;
 }
 /* line 74, ../scss/tggl.sass */
-.red.bg-hover:hover {
+.tggl-red.tggl-bg-hover:hover {
   background-color: #ea6153;
 }
 
 /* line 102, ../scss/tggl.sass */
-.blue {
+.tggl-blue {
   background-color: #3498db;
   border: 2px solid #1d6fa5;
 }
 /* line 68, ../scss/tggl.sass */
-.blue.toggled {
+.tggl-blue.tggl-toggled {
   background-color: #1d6fa5;
 }
 /* line 71, ../scss/tggl.sass */
-.blue.no-bg-toggle {
+.tggl-blue.tggl-no-bg-toggle {
   background-color: #3498db;
 }
 /* line 74, ../scss/tggl.sass */
-.blue.bg-hover:hover {
+.tggl-blue.tggl-bg-hover:hover {
   background-color: #4aa3df;
 }
 
 /* line 105, ../scss/tggl.sass */
-.green {
+.tggl-green {
   background-color: #27ae60;
   border: 2px solid #19703e;
 }
 /* line 68, ../scss/tggl.sass */
-.green.toggled {
+.tggl-green.tggl-toggled {
   background-color: #19703e;
 }
 /* line 71, ../scss/tggl.sass */
-.green.no-bg-toggle {
+.tggl-green.tggl-no-bg-toggle {
   background-color: #27ae60;
 }
 /* line 74, ../scss/tggl.sass */
-.green.bg-hover:hover {
+.tggl-green.tggl-bg-hover:hover {
   background-color: #2cc36b;
 }
 
 /* line 108, ../scss/tggl.sass */
-.grey {
+.tggl-grey {
   background-color: #7f8c8d;
   border: 2px solid #5a6465;
 }
 /* line 68, ../scss/tggl.sass */
-.grey.toggled {
+.tggl-grey.tggl-toggled {
   background-color: #5a6465;
 }
 /* line 71, ../scss/tggl.sass */
-.grey.no-bg-toggle {
+.tggl-grey.tggl-no-bg-toggle {
   background-color: #7f8c8d;
 }
 /* line 74, ../scss/tggl.sass */
-.grey.bg-hover:hover {
+.tggl-grey.tggl-bg-hover:hover {
   background-color: #8c9899;
 }
 
 /* line 111, ../scss/tggl.sass */
-.orange {
+.tggl-orange {
   background-color: #e67e22;
   border: 2px solid #a85913;
 }
 /* line 68, ../scss/tggl.sass */
-.orange.toggled {
+.tggl-orange.tggl-toggled {
   background-color: #a85913;
 }
 /* line 71, ../scss/tggl.sass */
-.orange.no-bg-toggle {
+.tggl-orange.tggl-no-bg-toggle {
   background-color: #e67e22;
 }
 /* line 74, ../scss/tggl.sass */
-.orange.bg-hover:hover {
+.tggl-orange.tggl-bg-hover:hover {
   background-color: #e98b39;
 }
 
 /* line 114, ../scss/tggl.sass */
-.purple {
+.tggl-purple {
   background-color: #8e44ad;
   border: 2px solid #612e76;
 }
 /* line 68, ../scss/tggl.sass */
-.purple.toggled {
+.tggl-purple.tggl-toggled {
   background-color: #612e76;
 }
 /* line 71, ../scss/tggl.sass */
-.purple.no-bg-toggle {
+.tggl-purple.tggl-no-bg-toggle {
   background-color: #8e44ad;
 }
 /* line 74, ../scss/tggl.sass */
-.purple.bg-hover:hover {
+.tggl-purple.tggl-bg-hover:hover {
   background-color: #9b50ba;
 }
 
 /* line 117, ../scss/tggl.sass */
-.yellow {
+.tggl-yellow {
   background-color: #f1c40f;
   border: 2px solid #aa8a0a;
 }
 /* line 68, ../scss/tggl.sass */
-.yellow.toggled {
+.tggl-yellow.tggl-toggled {
   background-color: #aa8a0a;
 }
 /* line 71, ../scss/tggl.sass */
-.yellow.no-bg-toggle {
+.tggl-yellow.tggl-no-bg-toggle {
   background-color: #f1c40f;
 }
 /* line 74, ../scss/tggl.sass */
-.yellow.bg-hover:hover {
+.tggl-yellow.tggl-bg-hover:hover {
   background-color: #f2ca27;
 }
 
 /* line 120, ../scss/tggl.sass */
-.no-border {
+.tggl-no-border {
   border: 0 none;
 }
 
 /* line 123, ../scss/tggl.sass */
-.no-hover:hover .toggle-circle {
+.tggl-no-hover:hover .tggl-circle {
   background-color: white;
 }
 
 /* line 126, ../scss/tggl.sass */
-.tiny {
+.tggl-tiny {
   width: 24.5px;
   height: 14px;
 }
 /* line 23, ../scss/tggl.sass */
-.tiny .toggle-circle.pill {
+.tggl-tiny .tggl-circle.tggl-pill {
   width: 16.8px;
   height: 14px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny .toggle-circle.pill.border {
+.tggl-tiny .tggl-circle.tggl-pill.tggl-border {
   width: 12.8px;
   height: 10px;
   border: 2px solid #bfbfbf;
 }
 /* line 26, ../scss/tggl.sass */
-.tiny.expand-hover:hover .toggle-circle {
+.tggl-tiny.tggl-expand-hover:hover .tggl-circle {
   width: 16.8px;
   height: 14px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny.expand-hover:hover .toggle-circle.border {
+.tggl-tiny.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 12.8px;
   height: 10px;
   border: 2px solid #bfbfbf;
 }
 /* line 29, ../scss/tggl.sass */
-.tiny.tall {
+.tggl-tiny.tggl-tall {
   width: 24.5px;
   height: 16.8px;
 }
 /* line 33, ../scss/tggl.sass */
-.tiny.tall .toggle-circle {
+.tggl-tiny.tggl-tall .tggl-circle {
   width: 16.8px;
   height: 16.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny.tall .toggle-circle.border {
+.tggl-tiny.tggl-tall .tggl-circle.tggl-border {
   width: 12.8px;
   height: 12.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 36, ../scss/tggl.sass */
-.tiny.tall .toggle-circle.pill {
+.tggl-tiny.tggl-tall .tggl-circle.tggl-pill {
   width: 20.3px;
   height: 16.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny.tall .toggle-circle.pill.border {
+.tggl-tiny.tggl-tall .tggl-circle.tggl-pill.tggl-border {
   width: 16.3px;
   height: 12.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 39, ../scss/tggl.sass */
-.tiny.tall.expand-hover:hover .toggle-circle {
+.tggl-tiny.tggl-tall.tggl-expand-hover:hover .tggl-circle {
   width: 20.3px;
   height: 16.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny.tall.expand-hover:hover .toggle-circle.border {
+.tggl-tiny.tggl-tall.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 16.3px;
   height: 12.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 42, ../scss/tggl.sass */
-.tiny.long {
+.tggl-tiny.tggl-long {
   width: 29.4px;
   height: 14px;
 }
 /* line 46, ../scss/tggl.sass */
-.tiny.long .toggle-circle {
+.tggl-tiny.tggl-long .tggl-circle {
   width: 14px;
   height: 14px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny.long .toggle-circle.border {
+.tggl-tiny.tggl-long .tggl-circle.tggl-border {
   width: 10px;
   height: 10px;
   border: 2px solid #bfbfbf;
 }
 /* line 49, ../scss/tggl.sass */
-.tiny.long .toggle-circle.pill {
+.tggl-tiny.tggl-long .tggl-circle.tggl-pill {
   width: 20.3px;
   height: 14px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny.long .toggle-circle.pill.border {
+.tggl-tiny.tggl-long .tggl-circle.tggl-pill.tggl-border {
   width: 16.3px;
   height: 10px;
   border: 2px solid #bfbfbf;
 }
 /* line 52, ../scss/tggl.sass */
-.tiny.long.expand-hover:hover .toggle-circle {
+.tggl-tiny.tggl-long.tggl-expand-hover:hover .tggl-circle {
   width: 20.3px;
   height: 14px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny.long.expand-hover:hover .toggle-circle.border {
+.tggl-tiny.tggl-long.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 16.3px;
   height: 10px;
   border: 2px solid #bfbfbf;
 }
 /* line 128, ../scss/tggl.sass */
-.tiny .toggle-circle {
+.tggl-tiny .tggl-circle {
   width: 14px;
   height: 14px;
 }
 /* line 59, ../scss/tggl.sass */
-.tiny .toggle-circle.border {
+.tggl-tiny .tggl-circle.tggl-border {
   width: 10px;
   height: 10px;
   border: 2px solid #bfbfbf;
 }
 
 /* line 131, ../scss/tggl.sass */
-.small {
+.tggl-small {
   width: 29.75px;
   height: 17px;
 }
 /* line 23, ../scss/tggl.sass */
-.small .toggle-circle.pill {
+.tggl-small .tggl-circle.tggl-pill {
   width: 20.4px;
   height: 17px;
 }
 /* line 59, ../scss/tggl.sass */
-.small .toggle-circle.pill.border {
+.tggl-small .tggl-circle.tggl-pill.tggl-border {
   width: 16.4px;
   height: 13px;
   border: 2px solid #bfbfbf;
 }
 /* line 26, ../scss/tggl.sass */
-.small.expand-hover:hover .toggle-circle {
+.tggl-small.tggl-expand-hover:hover .tggl-circle {
   width: 20.4px;
   height: 17px;
 }
 /* line 59, ../scss/tggl.sass */
-.small.expand-hover:hover .toggle-circle.border {
+.tggl-small.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 16.4px;
   height: 13px;
   border: 2px solid #bfbfbf;
 }
 /* line 29, ../scss/tggl.sass */
-.small.tall {
+.tggl-small.tggl-tall {
   width: 29.75px;
   height: 20.4px;
 }
 /* line 33, ../scss/tggl.sass */
-.small.tall .toggle-circle {
+.tggl-small.tggl-tall .tggl-circle {
   width: 20.4px;
   height: 20.4px;
 }
 /* line 59, ../scss/tggl.sass */
-.small.tall .toggle-circle.border {
+.tggl-small.tggl-tall .tggl-circle.tggl-border {
   width: 16.4px;
   height: 16.4px;
   border: 2px solid #bfbfbf;
 }
 /* line 36, ../scss/tggl.sass */
-.small.tall .toggle-circle.pill {
+.tggl-small.tggl-tall .tggl-circle.tggl-pill {
   width: 24.65px;
   height: 20.4px;
 }
 /* line 59, ../scss/tggl.sass */
-.small.tall .toggle-circle.pill.border {
+.tggl-small.tggl-tall .tggl-circle.tggl-pill.tggl-border {
   width: 20.65px;
   height: 16.4px;
   border: 2px solid #bfbfbf;
 }
 /* line 39, ../scss/tggl.sass */
-.small.tall.expand-hover:hover .toggle-circle {
+.tggl-small.tggl-tall.tggl-expand-hover:hover .tggl-circle {
   width: 24.65px;
   height: 20.4px;
 }
 /* line 59, ../scss/tggl.sass */
-.small.tall.expand-hover:hover .toggle-circle.border {
+.tggl-small.tggl-tall.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 20.65px;
   height: 16.4px;
   border: 2px solid #bfbfbf;
 }
 /* line 42, ../scss/tggl.sass */
-.small.long {
+.tggl-small.tggl-long {
   width: 35.7px;
   height: 17px;
 }
 /* line 46, ../scss/tggl.sass */
-.small.long .toggle-circle {
+.tggl-small.tggl-long .tggl-circle {
   width: 17px;
   height: 17px;
 }
 /* line 59, ../scss/tggl.sass */
-.small.long .toggle-circle.border {
+.tggl-small.tggl-long .tggl-circle.tggl-border {
   width: 13px;
   height: 13px;
   border: 2px solid #bfbfbf;
 }
 /* line 49, ../scss/tggl.sass */
-.small.long .toggle-circle.pill {
+.tggl-small.tggl-long .tggl-circle.tggl-pill {
   width: 24.65px;
   height: 17px;
 }
 /* line 59, ../scss/tggl.sass */
-.small.long .toggle-circle.pill.border {
+.tggl-small.tggl-long .tggl-circle.tggl-pill.tggl-border {
   width: 20.65px;
   height: 13px;
   border: 2px solid #bfbfbf;
 }
 /* line 52, ../scss/tggl.sass */
-.small.long.expand-hover:hover .toggle-circle {
+.tggl-small.tggl-long.tggl-expand-hover:hover .tggl-circle {
   width: 24.65px;
   height: 17px;
 }
 /* line 59, ../scss/tggl.sass */
-.small.long.expand-hover:hover .toggle-circle.border {
+.tggl-small.tggl-long.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 20.65px;
   height: 13px;
   border: 2px solid #bfbfbf;
 }
 /* line 133, ../scss/tggl.sass */
-.small .toggle-circle {
+.tggl-small .tggl-circle {
   width: 17px;
   height: 17px;
 }
 /* line 59, ../scss/tggl.sass */
-.small .toggle-circle.border {
+.tggl-small .tggl-circle.tggl-border {
   width: 13px;
   height: 13px;
   border: 2px solid #bfbfbf;
 }
 
 /* line 136, ../scss/tggl.sass */
-.large {
+.tggl-large {
   width: 42px;
   height: 24px;
 }
 /* line 23, ../scss/tggl.sass */
-.large .toggle-circle.pill {
+.tggl-large .tggl-circle.tggl-pill {
   width: 28.8px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.large .toggle-circle.pill.border {
+.tggl-large .tggl-circle.tggl-pill.tggl-border {
   width: 24.8px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 26, ../scss/tggl.sass */
-.large.expand-hover:hover .toggle-circle {
+.tggl-large.tggl-expand-hover:hover .tggl-circle {
   width: 28.8px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.large.expand-hover:hover .toggle-circle.border {
+.tggl-large.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 24.8px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 29, ../scss/tggl.sass */
-.large.tall {
+.tggl-large.tggl-tall {
   width: 42px;
   height: 28.8px;
 }
 /* line 33, ../scss/tggl.sass */
-.large.tall .toggle-circle {
+.tggl-large.tggl-tall .tggl-circle {
   width: 28.8px;
   height: 28.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.large.tall .toggle-circle.border {
+.tggl-large.tggl-tall .tggl-circle.tggl-border {
   width: 24.8px;
   height: 24.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 36, ../scss/tggl.sass */
-.large.tall .toggle-circle.pill {
+.tggl-large.tggl-tall .tggl-circle.tggl-pill {
   width: 34.8px;
   height: 28.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.large.tall .toggle-circle.pill.border {
+.tggl-large.tggl-tall .tggl-circle.tggl-pill.tggl-border {
   width: 30.8px;
   height: 24.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 39, ../scss/tggl.sass */
-.large.tall.expand-hover:hover .toggle-circle {
+.tggl-large.tggl-tall.tggl-expand-hover:hover .tggl-circle {
   width: 34.8px;
   height: 28.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.large.tall.expand-hover:hover .toggle-circle.border {
+.tggl-large.tggl-tall.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 30.8px;
   height: 24.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 42, ../scss/tggl.sass */
-.large.long {
+.tggl-large.tggl-long {
   width: 50.4px;
   height: 24px;
 }
 /* line 46, ../scss/tggl.sass */
-.large.long .toggle-circle {
+.tggl-large.tggl-long .tggl-circle {
   width: 24px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.large.long .toggle-circle.border {
+.tggl-large.tggl-long .tggl-circle.tggl-border {
   width: 20px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 49, ../scss/tggl.sass */
-.large.long .toggle-circle.pill {
+.tggl-large.tggl-long .tggl-circle.tggl-pill {
   width: 34.8px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.large.long .toggle-circle.pill.border {
+.tggl-large.tggl-long .tggl-circle.tggl-pill.tggl-border {
   width: 30.8px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 52, ../scss/tggl.sass */
-.large.long.expand-hover:hover .toggle-circle {
+.tggl-large.tggl-long.tggl-expand-hover:hover .tggl-circle {
   width: 34.8px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.large.long.expand-hover:hover .toggle-circle.border {
+.tggl-large.tggl-long.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 30.8px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 /* line 138, ../scss/tggl.sass */
-.large .toggle-circle {
+.tggl-large .tggl-circle {
   width: 24px;
   height: 24px;
 }
 /* line 59, ../scss/tggl.sass */
-.large .toggle-circle.border {
+.tggl-large .tggl-circle.tggl-border {
   width: 20px;
   height: 20px;
   border: 2px solid #bfbfbf;
 }
 
 /* line 141, ../scss/tggl.sass */
-.huge {
+.tggl-huge {
   width: 50.75px;
   height: 29px;
 }
 /* line 23, ../scss/tggl.sass */
-.huge .toggle-circle.pill {
+.tggl-huge .tggl-circle.tggl-pill {
   width: 34.8px;
   height: 29px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge .toggle-circle.pill.border {
+.tggl-huge .tggl-circle.tggl-pill.tggl-border {
   width: 30.8px;
   height: 25px;
   border: 2px solid #bfbfbf;
 }
 /* line 26, ../scss/tggl.sass */
-.huge.expand-hover:hover .toggle-circle {
+.tggl-huge.tggl-expand-hover:hover .tggl-circle {
   width: 34.8px;
   height: 29px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge.expand-hover:hover .toggle-circle.border {
+.tggl-huge.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 30.8px;
   height: 25px;
   border: 2px solid #bfbfbf;
 }
 /* line 29, ../scss/tggl.sass */
-.huge.tall {
+.tggl-huge.tggl-tall {
   width: 50.75px;
   height: 34.8px;
 }
 /* line 33, ../scss/tggl.sass */
-.huge.tall .toggle-circle {
+.tggl-huge.tggl-tall .tggl-circle {
   width: 34.8px;
   height: 34.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge.tall .toggle-circle.border {
+.tggl-huge.tggl-tall .tggl-circle.tggl-border {
   width: 30.8px;
   height: 30.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 36, ../scss/tggl.sass */
-.huge.tall .toggle-circle.pill {
+.tggl-huge.tggl-tall .tggl-circle.tggl-pill {
   width: 42.05px;
   height: 34.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge.tall .toggle-circle.pill.border {
+.tggl-huge.tggl-tall .tggl-circle.tggl-pill.tggl-border {
   width: 38.05px;
   height: 30.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 39, ../scss/tggl.sass */
-.huge.tall.expand-hover:hover .toggle-circle {
+.tggl-huge.tggl-tall.tggl-expand-hover:hover .tggl-circle {
   width: 42.05px;
   height: 34.8px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge.tall.expand-hover:hover .toggle-circle.border {
+.tggl-huge.tggl-tall.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 38.05px;
   height: 30.8px;
   border: 2px solid #bfbfbf;
 }
 /* line 42, ../scss/tggl.sass */
-.huge.long {
+.tggl-huge.tggl-long {
   width: 60.9px;
   height: 29px;
 }
 /* line 46, ../scss/tggl.sass */
-.huge.long .toggle-circle {
+.tggl-huge.tggl-long .tggl-circle {
   width: 29px;
   height: 29px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge.long .toggle-circle.border {
+.tggl-huge.tggl-long .tggl-circle.tggl-border {
   width: 25px;
   height: 25px;
   border: 2px solid #bfbfbf;
 }
 /* line 49, ../scss/tggl.sass */
-.huge.long .toggle-circle.pill {
+.tggl-huge.tggl-long .tggl-circle.tggl-pill {
   width: 42.05px;
   height: 29px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge.long .toggle-circle.pill.border {
+.tggl-huge.tggl-long .tggl-circle.tggl-pill.tggl-border {
   width: 38.05px;
   height: 25px;
   border: 2px solid #bfbfbf;
 }
 /* line 52, ../scss/tggl.sass */
-.huge.long.expand-hover:hover .toggle-circle {
+.tggl-huge.tggl-long.tggl-expand-hover:hover .tggl-circle {
   width: 42.05px;
   height: 29px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge.long.expand-hover:hover .toggle-circle.border {
+.tggl-huge.tggl-long.tggl-expand-hover:hover .tggl-circle.tggl-border {
   width: 38.05px;
   height: 25px;
   border: 2px solid #bfbfbf;
 }
 /* line 143, ../scss/tggl.sass */
-.huge .toggle-circle {
+.tggl-huge .tggl-circle {
   width: 29px;
   height: 29px;
 }
 /* line 59, ../scss/tggl.sass */
-.huge .toggle-circle.border {
+.tggl-huge .tggl-circle.tggl-border {
   width: 25px;
   height: 25px;
   border: 2px solid #bfbfbf;
