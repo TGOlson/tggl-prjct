@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foundation</title>
+  <title>&lt;tggl-prjct&gt; | An open source library for flat UI slide-toggle buttons.</title>
   <link rel="stylesheet" href="stylesheets/app.css" />
   <link rel="stylesheet" href="stylesheets/tggl.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
@@ -17,7 +17,7 @@
       <div class="panel big-header">
         <h1>&lt;tggl-prjct&gt;</h1>
         <h3>An open source library for flat UI slide-toggle buttons.</h3>
-        <a href="#" class="large radius button">GET STARTED</a><br>
+        <a href="#get-started" class="large radius button" data-magellan-arrival="get-started">GET STARTED</a><br>
       </div>
     </div>
   </div>
@@ -32,44 +32,47 @@
       <p>That's why the <span class='tggl'>&lt;tggl-prjct&gt;</span> was created. This open source library of toggle buttons lets you quickly and simply add a toggle button feature to any website, and aims to make customization just as easy.</p>
 
 
-      <h4><strong>Get Started</strong></h4>
+      <a name="get-started"></a>
+      <h4 data-magellan-destination="get-started"><strong>Get Started</strong></h4>
       <p>It's as simple as <kbd>Ctrl</kbd> + <kbd>C</kbd> and <kbd>Ctrl</kbd> + <kbd>P</kbd>. Implement fully designed toggle buttons into your project in just minutes.</p>
-      <ul class='no-style-list'>
-        <li><h5>STEP 1: Add the CSS and JS files into your project.</h5><hr>
+
+      <div class='panel'>
+        <h5>STEP 1: Add the CSS and JS files into your project.</h5><hr>
           <p>Use direct links in your declaration.</p>
-          <p><pre>&lt;link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/css/tggl.css"&gt;<br>&lt;script type="text/javascript" src="http://tgolson.github.io/tggl-prjct/js/tggl.js"&gt;&lt;/script&gt;</pre>
-          </p>
+          <div class='code-container'>
+            <pre>&lt;link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/css/tggl.css"&gt;<br>&lt;script type="text/javascript" src="http://tgolson.github.io/tggl-prjct/js/tggl.js"&gt;&lt;/script&gt;</pre>
+          </div>
           <p>Or, <a href="https://github.com/TGOlson/tggl-prjct/archive/gh-pages.zip">download the files directly</a> into your project directory.</p>
-        </li>
 
-        <li><h5>STEP 2: Use the pre-made classes inside your document.</h5><hr>
+        <h5>STEP 2: Use the pre-made classes inside your document.</h5><hr>
 
-          <p><pre>&lt;div class='tggl-button'&gt;<br>  &lt;div class='tggl-circle'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre></p>
-        </li>
+          <div>
+            <pre class='light-bg'>&lt;div class='tggl-button'&gt;<br>  &lt;div class='tggl-circle'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre>
+          </div>
 
-        <li><h5>STEP 3: Enjoy and toggle.</h5><hr>
+        <h5>STEP 3: Enjoy and toggle.</h5><hr>
           <p>
             <div class='info' style='display:none;'></div>
             <div class='tggl-button'>
               <div class='tggl-circle'></div>
             </div>
           </p>
-        </li>
-      </ul>
+      </div>
+
       <h4><strong>Features</strong></h4>
 
       <p>Sizing, colors, shapes and effects can all be added to toggle buttons by simply adding, removing, or stacking classes onto the default framework.</p>
 
-<div class='panel no-bg'>
-      <ul class='no-style-list'>
-        <li>STANDARD - Default design with a <pre>toggle</pre> class that automatically appends or that can be set.</li>
-        <li>SIZES - Five total sizes, from <pre>tiny</pre> to <pre>huge</pre> to fit all projects.</li>
-        <li>SHAPES - Modify the default shape with custom classes like <pre>tall</pre> or <pre>long</pre>.</li>
-        <li>BORDERS - Simple styling like <pre>no-border</pre> for the button and circle borders.</li>
-        <li>HOVER EFFECTS - Change the hover action for the buttons with classes like <pre>no-hover</pre> or <pre>expand-hover</pre>.</li>
-        <li>COLORS - Choose from seven color schemes by adding color classes like <pre>orange</pre> and <pre>purple</pre>.</li>
-      </ul>
-</div>
+      <div class='panel no-bg'>
+        <ul class='no-style-list'>
+          <li>STANDARD - Default design with a <pre>toggle</pre> class that automatically appends or that can be set.</li>
+          <li>SIZES - Five total sizes, from <pre>tiny</pre> to <pre>huge</pre> to fit all projects.</li>
+          <li>SHAPES - Modify the default shape with custom classes like <pre>tall</pre> or <pre>long</pre>.</li>
+          <li>BORDERS - Simple styling like <pre>no-border</pre> for the button and circle borders.</li>
+          <li>HOVER EFFECTS - Change the hover action for the buttons with classes like <pre>no-hover</pre> or <pre>expand-hover</pre>.</li>
+          <li>COLORS - Choose from seven color schemes by adding color classes like <pre>orange</pre> and <pre>purple</pre>.</li>
+        </ul>
+      </div>
 
       <p>All actions are written in vanilla JavaScript, which allows the library to remain lightweight an not rely on any external libraries. This also makes customization extremely easy.</p>
 
@@ -78,7 +81,8 @@
       <p>In addition, external libraries such as jQuery can easily be implemented to add more advanced actions or animation.</p>
 
       <h4><strong>Examples</strong></h4>
-      <p class='muted'>Not an inclusive list of all options, see <a href='#'>documention</a>.</p>
+      <div class='panel callout'>Not an inclusive list of all options, see <a href='#documentation' data-magellan-arrival="documentation">documentation</a>.
+      </div>
 
       <p>NOTE: The first item above each button is the outer button class, the second item is the inner circle class.</p>
 
@@ -275,11 +279,14 @@
         </div>
       </div>
 
-
-      <h4><strong>Documentation</strong></h4>
+      <a name="documentation"></a>
+      <h4 data-magellan-destination="documentation"><strong>Documentation</strong></h4>
 
       <p>View the <a href='#'>documentation</a> for information on classes and syntax.</p>
-      <p>For more general project information, check out the <a href='#'>README</a> on GitHub.</p>
+
+      <p class='muted'>NOTE: Documentation not yet live.</p>
+
+      <p>For more general project information, check out the <a href='https://github.com/TGOlson/tggl-prjct/blob/gh-pages/README.md'>README</a> on GitHub.</p>
 
       <h4><strong>Contribute</strong></h4>
 

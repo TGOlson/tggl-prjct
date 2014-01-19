@@ -7438,32 +7438,52 @@ li {
 }
 
 /* line 35, ../scss/app.scss */
-pre {
-  background-color: #eee;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 2px 5px;
+.code-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 5px;
 }
 
 /* line 42, ../scss/app.scss */
+.code-container pre {
+  background-color: #fff;
+}
+
+/* line 46, ../scss/app.scss */
+pre {
+  font-size: 14px;
+  background-color: #eee;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-bottom: 5px;
+}
+
+/* line 55, ../scss/app.scss */
+pre.light-bg {
+  background-color: #fff;
+}
+
+/* line 59, ../scss/app.scss */
 footer {
   color: #aaa;
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .muted {
   color: #aaa;
 }
 
-/* line 52, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 h5 {
   margin-top: 25px;
   margin-bottom: -10px;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .panel.no-bg {
   background-color: #fff;
 }

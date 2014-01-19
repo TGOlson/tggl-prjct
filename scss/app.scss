@@ -32,11 +32,28 @@ li {
   margin: 15px 0;
 }
 
+.code-container{
+  overflow-x: auto;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.code-container pre{
+  background-color: #fff;
+}
+
 pre{
+  font-size: 14px;
   background-color: #eee;
   border-radius: 5px;
   display: inline-block;
-  padding: 2px 5px;
+  padding: 4px 8px;
+  margin-bottom: 5px;
+}
+
+pre.light-bg{
+  background-color: #fff;
 }
 
 footer{
@@ -55,8 +72,6 @@ h5{
 }
 
 .tggl{
-  // background-color: #9b59b6;
-  // font-weight: 700;
 }
 
 .panel.no-bg{
