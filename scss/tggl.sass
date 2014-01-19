@@ -19,44 +19,44 @@ $circle-bg: #ffffff
 	width: $std-button-width * $x-scale
 	height: $std-button-height * $y-scale
 
-	.toggle-circle
-		&.pill
+	.tggl-circle
+		&.tggl-pill
 			@include circle-sizing($x-scale * 1.2, $y-scale)
 
-	&.expand-hover:hover .toggle-circle
+	&.tggl-expand-hover:hover .tggl-circle
 		@include circle-sizing($x-scale * 1.2, $y-scale)
 
-	&.tall
+	&.tggl-tall
 		width: $std-button-width * $x-scale
 		height: $std-button-height * $y-scale * 1.2
 
-		.toggle-circle
+		.tggl-circle
 			@include circle-sizing($x-scale * 1.2, $y-scale * 1.2)
 
-			&.pill
+			&.tggl-pill
 				@include circle-sizing($x-scale * 1.45, $y-scale * 1.2)
 
-	&.tall.expand-hover:hover .toggle-circle
+	&.tggl-tall.tggl-expand-hover:hover .tggl-circle
 		@include circle-sizing($x-scale * 1.45, $y-scale * 1.2)
 
-	&.long
+	&.tggl-long
 		width: $std-button-width * $x-scale * 1.2
 		height: $std-button-height * $y-scale
 
-		.toggle-circle
+		.tggl-circle
 			@include circle-sizing($x-scale, $y-scale)
 
-			&.pill
+			&.tggl-pill
 				@include circle-sizing($x-scale * 1.45, $y-scale)
 
-	&.long.expand-hover:hover .toggle-circle
+	&.tggl-long.tggl-expand-hover:hover .tggl-circle
 		@include circle-sizing($x-scale * 1.45, $y-scale)
 
 @mixin circle-sizing($x-scale, $y-scale)
 	width: $std-circle-dim * $x-scale
 	height: $std-circle-dim * $y-scale
 
-	&.border
+	&.tggl-border
 		width: $std-circle-dim * $x-scale - 4px
 		height: $std-circle-dim * $y-scale - 4px
 		border: 2px solid darken($circle-bg, 25%)
@@ -65,16 +65,16 @@ $circle-bg: #ffffff
 	background-color: $button-color
 	border: 2px solid darken($button-color, 15%)
 
-	&.toggled
+	&.tggl-toggled
 		background-color: darken($button-color, 15%)
 
-	&.no-bg-toggle
+	&.tggl-no-bg-toggle
 		background-color: $button-color
 
-	&.bg-hover:hover
+	&.tggl-bg-hover:hover
 		background-color: lighten($button-color, 5%)
 
-.toggle-button
+.tggl-button
 	@include button-color-scheme($button-bg-red)
 	@include button-sizing(1.0, 1.0)
 	display: inline-block
@@ -83,62 +83,62 @@ $circle-bg: #ffffff
 	webkit-box-sizing: content-box
 	box-sizing: content-box
 
-	.toggle-circle
+	.tggl-circle
 		background-color: $circle-bg
 		@include circle-sizing(1.0, 1.0)
 		float: left
 		border-radius: 99px
 
-	&:hover .toggle-circle
+	&:hover .tggl-circle
 		background-color: transparentize($circle-bg, 0.2)
 
-.toggled
-	.toggle-circle
+.tggl-toggled
+	.tggl-circle
 		float: right
 
-.red
+.tggl-red
 	@include button-color-scheme($button-bg-red)
 
-.blue
+.tggl-blue
 	@include button-color-scheme($button-bg-blue)
 
-.green
+.tggl-green
 	@include button-color-scheme($button-bg-green)
 
-.grey
+.tggl-grey
 	@include button-color-scheme($button-bg-grey)
 
-.orange
+.tggl-orange
 	@include button-color-scheme($button-bg-orange)
 
-.purple
+.tggl-purple
 	@include button-color-scheme($button-bg-purple)
 
-.yellow
+.tggl-yellow
 	@include button-color-scheme($button-bg-yellow)
 
-.no-border
+.tggl-no-border
 	border: 0 none
 
-.no-hover:hover .toggle-circle
+.tggl-no-hover:hover .tggl-circle
 	background-color: $circle-bg
 
-.tiny
+.tggl-tiny
 	@include button-sizing(0.7, 0.7)
-	.toggle-circle
+	.tggl-circle
 		@include circle-sizing(0.7, 0.7)
 
-.small
+.tggl-small
 	@include button-sizing(0.85, 0.85)
-	.toggle-circle
+	.tggl-circle
 		@include circle-sizing(0.85, 0.85)
 
-.large
+.tggl-large
 	@include button-sizing(1.2, 1.2)
-	.toggle-circle
+	.tggl-circle
 		@include circle-sizing(1.2, 1.2)
 
-.huge
+.tggl-huge
 	@include button-sizing(1.45, 1.45)
-	.toggle-circle
+	.tggl-circle
 		@include circle-sizing(1.45, 1.45)
