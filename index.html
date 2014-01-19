@@ -1,163 +1,91 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation</title>
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  <link rel="stylesheet" href="stylesheets/tggl.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="js/tggl.js"></script>
+</head>
+<body>
+
+  <div class="row">
+    <div class="large-9 small-centered columns">
+      <div class="panel big-header">
+        <h1>&lt;tggl-prjct&gt;</h1>
+        <h3>An open source library for flat UI slide-toggle buttons.</h3>
+        <a href="#" class="large radius button">GET STARTED</a><br/>
       </div>
     </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+  <div class="row main-content">
+    <div class="large-8 small-centered columns">
+      <h4><strong>Overview</strong></h4>
+      <p>Nice looking toggle buttons take an un-proportional amount time to make compared to other HTML elements. Some larger libraries and frameworks exist that include toggle buttons, but not in a way that makes it easy to just use as a one-off feature.</p>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+      <p>That's why the <strong>&lt;tggl-prjct&gt;</strong> was created. This open source library of toggle buttons lets you quickly and simply add a toggle button feature to any website, and aims to make customization just as easy.</p>
+
+      <p>The goal of the <span class='tggl'>&lt;tggl-prjct&gt;</span> is to create an extremely light-weight solution for adding toggle buttons to a project, while also keeping it flexible and as feature rich as possible.</p>
+
+      <h4><strong>Get Started</strong></h4>
+      <p>It's as simple as <kbd>Ctrl</kbd> + <kbd>C</kbd> and <kbd>Ctrl</kbd> + <kbd>P</kbd>. Implement fully designed toggle buttons into your project in just minutes.</p>
+      <ul class='no-style-list'>
+        <li><h5>STEP 1: Add the CSS and JS files into your project.</h5><hr>
+
+          <p>Use direct links in your declaration.</p>
+          <p>
+            <pre>&lt;link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/css/tggl.css"&gt;<br>&lt;script type="text/javascript" src="http://tgolson.github.io/tggl-prjct/js/tggl.js"&gt;&lt;/script&gt;</pre>
+          </p>
+          <p>Or, <a href="https://github.com/TGOlson/tggl-prjct/archive/gh-pages.zip">download the files directly</a> into your project directory.</p></li>
+
+          <li><h5>STEP 2: Use the pre-made classes inside your document.</h5><hr>
+
+            <p><pre>&lt;div class='toggle-button'&gt;<br>  &lt;div class='toggle-circle'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre></p></li>
+
+            <li><h5>STEP 3: Enjoy and toggle.</h5><hr>
+              <p>
+                <div class='info' style='display:none;'></div>
+                <div class='toggle-button'>
+                  <div class='toggle-circle'></div>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+              </p></li>
+            </ul>
+            <h4><strong>Features</strong></h4>
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+            <p>Sizing, colors, shapes and effects can all be added to toggle buttons by simply adding, removing, or stacking classes onto the default framework.</p>
+
+            <ul class='no-style-list'>
+              <li>STANDARD - Default design with a <pre>toggle</pre> class that automatically appends or that can be set.</li>
+              <li>SIZES - Five total sizes, from <pre>tiny</pre> to <pre>huge</pre> to fit all projects.</li>
+              <li>SHAPES - Modify the default shape with custom classes like <pre>tall</pre> or <pre>long</pre>.</li>
+              <li>BORDERS - Simple styling like <pre>no-border</pre> for the button and circle borders.</li>
+              <li>HOVER EFFECTS - Change the hover action for the buttons with classes like <pre>no-hover</pre> or <pre>expand-hover</pre>.</li>
+              <li>COLORS - Choose from seven color schemes by adding color classes like <pre>orange</pre> and <pre>purple</pre>.</li>
+            </ul>
+
+            <p>All actions are written in vanilla JavaScript, which allows the library to remain lightweight an not rely on any external libraries. This also makes customization extremely easy.</p>
+
+            <p>If customization is desired, the simplest way is to download the external files and make modifications to the existing JavaScript or CSS. However, additional actions or styles should can still be added if using the hosted solution.</p>
+
+            <p>In addition, external libraries such as jQuery can easily be implemented to add more advanced actions or animation.</p>
+
+            <h4><strong>Examples</strong></h4>
+
+            <h4><strong>Documentation</strong></h4>
+
+            <h4><strong>Contribute</strong></h4>
+
+            <p>Contribution to the <span class='tggl'>&lt;tggl-prjct&gt;</span> is greatly needed and greatly appreciated.</p>
+            <p>To contribute please fork our <a href='https://github.com/TGOlson/tggl-prjct' target='_blank'>repo on GitHub</a>, then issue a pull request for any changes made.</p>
+            <p>Check for any know issues in the repository, or lend a hand and help create something that would be cool or useful.</p>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-</html>
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/foundation/js/foundation.min.js"></script>
+        <script src="js/app.js"></script>
+      </body>
+      </html>
