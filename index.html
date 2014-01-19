@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="stylesheets/tggl.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
   <script src="js/tggl.js"></script>
+  <script src="js/layout.js"></script>
 </head>
 <body>
 
@@ -16,7 +17,7 @@
       <div class="panel big-header">
         <h1>&lt;tggl-prjct&gt;</h1>
         <h3>An open source library for flat UI slide-toggle buttons.</h3>
-        <a href="#" class="large radius button">GET STARTED</a>
+        <a href="#" class="large radius button">GET STARTED</a><br>
       </div>
     </div>
   </div>
@@ -42,7 +43,7 @@
 
         <li><h5>STEP 2: Use the pre-made classes inside your document.</h5><hr>
 
-          <p><pre>&lt;div class='toggle-button'&gt;<br>  &lt;div class='toggle-circle'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre></p>
+          <p><pre>&lt;div class='tggl-button'&gt;<br>  &lt;div class='tggl-circle'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre></p>
         </li>
 
         <li><h5>STEP 3: Enjoy and toggle.</h5><hr>
@@ -74,29 +75,101 @@
       <p>In addition, external libraries such as jQuery can easily be implemented to add more advanced actions or animation.</p>
 
       <h4><strong>Examples</strong></h4>
+      <p class='muted'>Not an inclusive list of all options, see <a href='#'>documention</a>.</p>
 
-      <h4><strong>Documentation</strong></h4>
+      <p>NOTE: The first item above each button is the outer button class, the second item is the inner circle class.</p>
 
-      <h4><strong>Contribute</strong></h4>
+      <p>For example, this code:</p>
+      <p>
+        <pre>&lt;div class='tggl-button tggl-green'&gt;<br>  &lt;div class='tggl-circle tggl-pill'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre>
+      </p>
 
-      <p>Contribution to the <span class='tggl'>&lt;tggl-prjct&gt;</span> is greatly needed and greatly appreciated.</p>
-      <p>To contribute please fork our <a href='https://github.com/TGOlson/tggl-prjct' target='_blank'>repo on GitHub</a>, then issue a pull request for any changes made.</p>
-      <p>Check for any know issues in the repository, or lend a hand and help create something that would be cool or useful.</p>
-
-    </div>
-
-    <div class='row'>
-      <div class="large-9 small-centered columns">
-        <footer>
-          <hr>
-          Created by <a href='http://tgolson.com' target='_blank'>Tyler Olson</a>. Code licensed under the <a href='http://opensource.org/licenses/MIT' target='_blank'>MIT License</a>.
-        </footer>
+        <p>Will translate to this example:</p>
+      <div class='row'>
+        <div class='large-2 columns'>
+          <div class='tggl-button tggl-green'>
+            <div class='tggl-circle tggl-pill'></div>
+          </div>
+        </div>
+        <div class='large-10 columns'>
+          <div class='info'></div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <script src="bower_components/jquery/jquery.js"></script>
-  <script src="bower_components/foundation/js/foundation.min.js"></script>
-  <script src="js/app.js"></script>
-</body>
-</html>
+
+      <h5>STANDARD</h5><hr>
+      <div class='row'>
+        <div class='large-2 columns'>
+          <div class='tggl-button'>
+            <div class='tggl-circle'></div>
+          </div>
+        </div>
+
+        <div class='large-10 columns'>
+          <div class='info'></div>
+        </div>
+      </div>
+      <br>
+      <div class='row'>
+        <div class='large-2 columns'>
+          <div class='tggl-button tggl-toggled'>
+            <div class='tggl-circle'></div>
+          </div>
+        </div>
+
+        <div class='large-10 columns'>
+          <div class='info'></div>
+        </div>
+      </div>
+
+      <h5>SIZES</h5><hr>
+      <div class='row'>
+        <div class='large-2 columns'>
+          <div class='tggl-button tggl-blue tggl-tiny'>
+            <div class='tggl-circle'></div>
+          </div>
+        </div>
+
+        <div class='large-10 columns'>
+          <div class='info'></div>
+        </div>
+        </div>
+<br>
+        <div class='row'>
+          <div class='large-2 columns'>
+            <div class='tggl-button tggl-orange tggl-huge'>
+              <div class='tggl-circle'></div>
+            </div>
+          </div>
+
+          <div class='large-10 columns'>
+            <div class='info'></div>
+          </div>
+          </div>
+
+
+          <h4><strong>Documentation</strong></h4>
+
+          <h4><strong>Contribute</strong></h4>
+
+          <p>Contribution to the <strong>&lt;tggl-prjct&gt;</strong> is greatly needed and greatly appreciated.</p>
+          <p>To contribute please fork our <a href='https://github.com/TGOlson/tggl-prjct' target='_blank'>repo on GitHub</a>, then issue a pull request for any changes made.</p>
+          <p>Check for any know issues in the repository, or lend a hand and help create something that would be cool or useful.</p>
+
+        </div>
+
+        <div class='row'>
+          <div class="large-9 small-centered columns">
+            <footer>
+              <hr>
+              Created by <a href='http://tgolson.com' target='_blank'>Tyler Olson</a>. Code licensed under the <a href='http://opensource.org/licenses/MIT' target='_blank'>MIT License</a>.
+            </footer>
+          </div>
+        </div>
+      </div>
+
+      <script src="bower_components/jquery/jquery.js"></script>
+      <script src="bower_components/foundation/js/foundation.min.js"></script>
+      <script src="js/app.js"></script>
+    </body>
+    </html>
