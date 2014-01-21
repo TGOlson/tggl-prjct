@@ -38,25 +38,25 @@
 
       <div class='panel'>
         <h5>STEP 1: Add the CSS and JS files into your project.</h5><hr>
-          <p>Use direct links in your declaration.</p>
-          <div class='code-container'>
-            <pre>&lt;link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/css/tggl.css"&gt;<br>&lt;script type="text/javascript" src="http://tgolson.github.io/tggl-prjct/js/tggl.js"&gt;&lt;/script&gt;</pre>
-          </div>
-          <p>Or, <a href="https://github.com/TGOlson/tggl-prjct/archive/gh-pages.zip">download the files directly</a> into your project directory.</p>
+        <p>Use direct links in your declaration.</p>
+        <div class='code-container'>
+          <pre>&lt;link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/stylesheets/tggl.css"&gt;<br>&lt;script type="text/javascript" src="http://tgolson.github.io/tggl-prjct/js/tggl.js"&gt;&lt;/script&gt;</pre>
+        </div>
+        <p>Or, <a href="https://github.com/TGOlson/tggl-prjct/archive/gh-pages.zip">download the files directly</a> into your project directory.</p>
 
         <h5>STEP 2: Use the pre-made classes inside your document.</h5><hr>
 
-          <div>
-            <pre class='light-bg'>&lt;div class='tggl-button'&gt;<br>  &lt;div class='tggl-circle'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre>
-          </div>
+        <div>
+          <pre class='light-bg'>&lt;div class='tggl-button'&gt;<br>  &lt;div class='tggl-circle'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre>
+        </div>
 
         <h5>STEP 3: Enjoy and toggle.</h5><hr>
-          <p>
-            <div class='info' style='display:none;'></div>
-            <div class='tggl-button'>
-              <div class='tggl-circle'></div>
-            </div>
-          </p>
+        <p>
+          <div class='info' style='display:none;'></div>
+          <div class='tggl-button'>
+            <div class='tggl-circle'></div>
+          </div>
+        </p>
       </div>
 
       <h4><strong>Features</strong></h4>
@@ -76,30 +76,30 @@
 
       <p>All actions are written in vanilla JavaScript, which allows the library to remain lightweight an not rely on any external libraries. This also makes customization extremely easy.</p>
 
-      <p>If customization is desired, the simplest way is to download the external files and make modifications to the existing JavaScript or CSS. However, additional actions or styles can still be added if using the hosted solution.</p>
-
-      <p>In addition, external libraries such as jQuery can easily be implemented to add more advanced actions or animation.</p>
+      <p>If customization is desired, the simplest way to do so is to download the external files and make modifications to the existing JavaScript or CSS. This solution includes the added benefit of being able to work with the origin SASS files, if desired. However, additional actions or styles can still be added if using the hosted solution by adding or overriding styles.</p>
 
       <h4><strong>Examples</strong></h4>
-      <div class='panel callout'>Not an inclusive list of all options, see <a href='#documentation' data-magellan-arrival="documentation">documentation</a>.
+      <div class='panel'>Not an inclusive list of all options, see <a href='#documentation' data-magellan-arrival="documentation">documentation</a>.
       </div>
 
-      <p>NOTE: The first item above each button is the outer button class, the second item is the inner circle class.</p>
+      <div class='panel no-bg'>
+      <h5>How to Read Examples</h5><hr>
+      <p>The first item next to each button is the outer button class, the second item is the inner circle class.</p>
+        <p>For example, this code:</p>
+        <p>
+          <pre>&lt;div class='tggl-button green'&gt;<br>  &lt;div class='tggl-circle pill'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre>
+        </p>
 
-      <p>For example, this code:</p>
-      <p>
-        <pre>&lt;div class='tggl-button green'&gt;<br>  &lt;div class='tggl-circle pill'&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre>
-      </p>
-
-      <p>Will translate to this example:</p>
-      <div class='row'>
-        <div class='large-2 columns'>
-          <div class='tggl-button green'>
-            <div class='tggl-circle pill'></div>
+        <p>Will translate to this example:</p>
+        <div class='row'>
+          <div class='large-2 columns'>
+            <div class='tggl-button green'>
+              <div class='tggl-circle pill'></div>
+            </div>
           </div>
-        </div>
-        <div class='large-10 columns'>
-          <div class='info'></div>
+          <div class='large-10 columns'>
+            <div class='info'></div>
+          </div>
         </div>
       </div>
 
@@ -257,7 +257,7 @@
       <h5>MULTIPLE CLASSES</h5><hr>
       <div class='row'>
         <div class='large-2 columns'>
-          <div class='tggl-button purple huge tall toggled'>
+          <div class='tggl-button purple huge long toggled'>
             <div class='tggl-circle'></div>
           </div>
         </div>
@@ -269,7 +269,7 @@
       <br>
       <div class='row'>
         <div class='large-2 columns'>
-          <div class='tggl-button orange large'>
+          <div class='tggl-button orange small no-hover'>
             <div class='tggl-circle pill'></div>
           </div>
         </div>
@@ -284,15 +284,13 @@
 
       <p>View the <a href='#'>documentation</a> for information on classes and syntax.</p>
 
-      <p class='muted'>NOTE: Documentation not yet live.</p>
-
       <p>For more general project information, check out the <a href='https://github.com/TGOlson/tggl-prjct/blob/gh-pages/README.md'>README</a> on GitHub.</p>
 
       <h4><strong>Contribute</strong></h4>
 
       <p>Contribution to the <span class='tggl'>&lt;tggl-prjct&gt;</span> is greatly needed and greatly appreciated.</p>
 
-      <p>To contribute please fork our <a href='https://github.com/TGOlson/tggl-prjct' target='_blank'>repo on GitHub</a>, then issue a pull request for any changes made.</p>
+      <p>To contribute please fork the <a href='https://github.com/TGOlson/tggl-prjct' target='_blank'>repo on GitHub</a>, then issue a pull request for any changes made.</p>
 
       <p>Check for any know issues in the repository, or lend a hand and help create something that would be cool or useful.</p>
 
