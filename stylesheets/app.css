@@ -7440,50 +7440,55 @@ li {
 /* line 35, ../scss/app.scss */
 .code-container {
   overflow-x: auto;
+  background-color: #fff;
   margin-bottom: 20px;
-  background-color: #fff;
-  padding: 5px;
+  padding-top: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-/* line 42, ../scss/app.scss */
+/* line 44, ../scss/app.scss */
 .code-container pre {
+  border: none;
   background-color: #fff;
 }
 
-/* line 46, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 pre {
   font-size: 14px;
   background-color: #eee;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  color: #c0392b;
   display: inline-block;
   padding: 4px 8px;
   margin-bottom: 5px;
 }
 
-/* line 55, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 pre.light-bg {
   background-color: #fff;
 }
 
-/* line 59, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 footer {
   color: #aaa;
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .muted {
   color: #aaa;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 h5 {
   margin-top: 25px;
   margin-bottom: -10px;
 }
 
-/* line 77, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .panel.no-bg {
   background-color: #fff;
 }
