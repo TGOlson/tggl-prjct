@@ -85,13 +85,13 @@ With the exception of the Standard class section, which explains some base compo
 
   Sizing, ranging from 70% to 140% of the default sizing.
 
-  ```tiny``` 70% smaller than the default button size.
+  ```tiny``` 70% of the default button size.
 
-  ```small``` 85% smaller than the default button size.
+  ```small``` 85% of the default button size.
 
-  ```large``` 120% larger than the default button size.
+  ```large``` 120% of the default button size.
 
-  ```huge``` 145% larger than the default button size.
+  ```huge``` 145% of the default button size.
 
   **Circle Classes**
 
@@ -102,13 +102,13 @@ With the exception of the Standard class section, which explains some base compo
 
   **Button Classes**
 
-  ```tall``` Extends the base height (including those from sizing classes) by 120%.
+  ```tall``` Extends the base height (including those from sizing classes) by 20%.
 
-  ```long``` Elongates the base length (including those from sizing classes) by 120%.
+  ```long``` Elongates the base length (including those from sizing classes) by 20%.
 
   **Circle Classes**
 
-  ```pill``` Elongates the toggle circle to 145% of the original width.
+  ```pill``` Elongates the toggle circle by 45%.
 
 <a name='Borders'></a>
 ###Borders
