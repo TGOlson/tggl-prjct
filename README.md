@@ -44,7 +44,7 @@ Contribution to the ```<tggl-prjct>``` is greatly needed and greatly appreciated
 
 To contribute please fork this repo GitHub, then issue a pull request for any changes made. Check for any know issues in the repository, or lend a hand and help create something that would be cool or useful.
 
-Also note, this site is created using [Foundation](http://foundation.zurb.com/). It may be useful to review their documents if you are having any troubles.
+Also note, this site is created using [Foundation](http://foundation.zurb.com/). It may be useful to review their documents, including using [Bower](http://bower.io/) for dependency management, if you are having any troubles.
 
 [Compass](http://compass-style.org/) is recommended to be used for compiling SASS to CSS. With compass installed, navigate to the root project folder and run ```compass watch```.
 
