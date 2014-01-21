@@ -26,8 +26,8 @@ Or, [download the files directly](https://github.com/TGOlson/tggl-prjct/archive/
 Then simply add the correct div classes to your code, for example:
 
 ```html
-<div class='toggle-button toggled'>
-  <div class='toggle-circle border'></div>
+<div class='tggl-button toggled'>
+  <div class='tggl-circle border'></div>
 </div>
 ```
 
