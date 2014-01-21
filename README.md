@@ -1,6 +1,8 @@
 # Slide Toggle Buttons
 
-An open source library of flat UI slide toggle buttons, [check it out](http://tgolson.github.io/tggl-prjct/).
+An open source library of flat UI slide toggle buttons.
+
+[View the site](http://tgolson.github.io/tggl-prjct/) for examples, documentation, and other info.
 
 ### Overview
 
@@ -33,10 +35,6 @@ Then simply add the correct div classes to your code, for example:
 
 * ```toggle-button``` class ```pill``` overwrites any ```expand-hover``` effect (may be good to leave this way due to sizing issues)
 * Cannot stack ```tall``` and ```long``` classes, or ```tiny``` ```small``` and ```large``` (use other modifiers instead)
-
-### Documentation
-
-[Ditto](http://tgolson.github.io/tggl-prjct/documentation.html)
 
 ### How to Contribute
 
