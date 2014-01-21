@@ -2,7 +2,9 @@
 
 An open source library of flat UI slide toggle buttons.
 
-[View the site](http://tgolson.github.io/tggl-prjct/) for examples, documentation, and other info.
+[View the site](http://tgolson.github.io/tggl-prjct/) for examples, features, and other info.
+
+[Documentation](https://github.com/TGOlson/tggl-prjct/blob/gh-pages/documentation/README.md)
 
 ### Overview
 
