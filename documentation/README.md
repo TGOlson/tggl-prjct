@@ -14,8 +14,10 @@ Table of Contents
   * [Colors](#Colors)
   * [Multiple Classes](#MultipleClasses)
 * [Adding/Extending Classes](#AddExtendClasses)
+
 <a name='Features'></a>
-#Features</a>
+#Features
+
 * Written in SASS.
 * Name spaced with ```tggl-button``` and ```tggl-circle``` classes.
 * No external libraries.
@@ -33,7 +35,7 @@ Syntax is simple -- just use the premade ```tggl-prjct``` classes like you would
 <a name='GettingStarted'></a>
 #Getting Started
 
-Either include external links to the ```tggl.css``` and ```tggl.js``` in your page:
+Either include external links to the ```tggl.css``` and ```tggl.js``` files in your page:
 
 ```html
 <link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/stylesheetes/tggl.css">
@@ -66,7 +68,7 @@ With the exception of the Standard class section, which explains some base compo
 
   **Button Classes**
 
-  The minimal required structure creates an immediately usable toggle button, which can be consider a 'default' class.
+  The minimal required structure creates an immediately usable toggle button, which can be considered a 'default' class.
 
   ```toggled``` Automatically appended to all toggled buttons, or can be added manually to create a button in a toggled state.
 
@@ -141,17 +143,17 @@ With the exception of the Standard class section, which explains some base compo
 
   **Button Classes**
 
-  ```blue```
+  ```blue``` Blue
 
-  ```green```
+  ```green``` Green
 
-  ```grey```
+  ```grey``` Grey
 
-  ```orange```
+  ```orange``` Orange
 
-  ```purple```
+  ```purple``` Purple
 
-  ```yellow```
+  ```yellow``` Yellow
 
   **Circle Classes**
 
