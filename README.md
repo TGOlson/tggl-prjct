@@ -55,4 +55,5 @@ Also note, this site is created using [Foundation](http://foundation.zurb.com/).
 * Migration to ```button``` HTML element from ```div```
 * SASS and/or LESS support
 * On-site customization
+* More circle class support, for example colors for circle.
 * Animation options using CSS3 and/or jQuery plugins
