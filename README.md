@@ -35,7 +35,7 @@ Then simply add the correct div classes to your code, for example:
 
 ### Known Issues
 
-* ```tggl-button``` class ```pill``` overwrites any ```expand-hover``` effect (may be good to leave this way due to sizing issues)
+* ```tggl-circle``` class ```pill``` overwrites any ```expand-hover``` effect (may be good to leave this way due to sizing issues)
 * Cannot stack ```tall``` and ```long``` classes, or ```tiny``` ```small``` and ```large``` (use other modifiers instead)
 
 ### How to Contribute
