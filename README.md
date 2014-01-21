@@ -17,7 +17,7 @@ That's why the ```<tggl-prjct>``` was created. This open source library of toggl
 
 ### Get Started
 
-Either include external links to the ```tggl.css``` and ```tggl.js``` in your page:
+Either include external links to the ```tggl.css``` and ```tggl.js``` files in your page:
 
 ```html
 <link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/stylesheetes/tggl.css">

@@ -171,8 +171,8 @@ Multiple classes can be used to create highly customized designs. Simply stack c
 ```
 
 ```html
-<div class='toggle-button yellow large no-border'>
-  <div class='toggle-circle border'></div>
+<div class='tggl-button yellow large no-border'>
+  <div class='tggl-circle border'></div>
 </div>
 ```
 
