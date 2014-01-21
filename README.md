@@ -1,4 +1,4 @@
-# ```<tggl-prject>```
+# ```<tggl-prjct>```
 
 An open source library of flat UI slide toggle buttons.
 
