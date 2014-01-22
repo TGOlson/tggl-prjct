@@ -55,9 +55,12 @@ $circle-bg: #ffffff
 	height: $std-circle-dim * $y-scale
 
 	&.border
-		width: $std-circle-dim * $x-scale // - 2px
-		height: $std-circle-dim * $y-scale // - 2px
+		width: $std-circle-dim * $x-scale - 4px
+		height: $std-circle-dim * $y-scale - 4px
 		border: 2px solid darken($circle-bg, 25%)
+		box-sizing: content-box
+		-webkit-box-sizing: content-box
+		-moz-box-sizing: content-box
 
 @mixin button-color-scheme($button-color)
 	background-color: $button-color

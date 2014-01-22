@@ -1,4 +1,4 @@
-/* line 75, ../scss/tggl.sass */
+/* line 78, ../scss/tggl.sass */
 .tggl-button {
   background-color: #e74c3c;
   border: 2px solid #bf2718;
@@ -11,15 +11,15 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.toggled {
   background-color: #bf2718;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.no-bg-toggle {
   background-color: #e74c3c;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.bg-hover:hover {
   background-color: #ea6153;
 }
@@ -30,9 +30,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button .tggl-circle.pill.border {
-  width: 24px;
-  height: 20px;
+  width: 20px;
+  height: 16px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 24, ../scss/tggl.sass */
 .tggl-button.expand-hover:hover .tggl-circle {
@@ -41,9 +44,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.expand-hover:hover .tggl-circle.border {
-  width: 24px;
-  height: 20px;
+  width: 20px;
+  height: 16px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 27, ../scss/tggl.sass */
 .tggl-button.tall {
@@ -57,9 +63,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tall .tggl-circle.border {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 34, ../scss/tggl.sass */
 .tggl-button.tall .tggl-circle.pill {
@@ -68,9 +77,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tall .tggl-circle.pill.border {
-  width: 29px;
-  height: 24px;
+  width: 25px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 37, ../scss/tggl.sass */
 .tggl-button.tall.expand-hover:hover .tggl-circle {
@@ -79,9 +91,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tall.expand-hover:hover .tggl-circle.border {
-  width: 29px;
-  height: 24px;
+  width: 25px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 40, ../scss/tggl.sass */
 .tggl-button.long {
@@ -95,9 +110,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.long .tggl-circle.border {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 47, ../scss/tggl.sass */
 .tggl-button.long .tggl-circle.pill {
@@ -106,9 +124,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.long .tggl-circle.pill.border {
-  width: 29px;
-  height: 20px;
+  width: 25px;
+  height: 16px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 50, ../scss/tggl.sass */
 .tggl-button.long.expand-hover:hover .tggl-circle {
@@ -117,11 +138,14 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.long.expand-hover:hover .tggl-circle.border {
-  width: 29px;
-  height: 20px;
+  width: 25px;
+  height: 16px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
-/* line 85, ../scss/tggl.sass */
+/* line 88, ../scss/tggl.sass */
 .tggl-button .tggl-circle {
   background-color: white;
   width: 20px;
@@ -131,157 +155,160 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button .tggl-circle.border {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
-/* line 91, ../scss/tggl.sass */
+/* line 94, ../scss/tggl.sass */
 .tggl-button:hover .tggl-circle {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 95, ../scss/tggl.sass */
+/* line 98, ../scss/tggl.sass */
 .tggl-button.toggled .tggl-circle {
   float: right;
 }
 
-/* line 98, ../scss/tggl.sass */
+/* line 101, ../scss/tggl.sass */
 .tggl-button.red {
   background-color: #e74c3c;
   border: 2px solid #bf2718;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.red.toggled {
   background-color: #bf2718;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.red.no-bg-toggle {
   background-color: #e74c3c;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.red.bg-hover:hover {
   background-color: #ea6153;
 }
 
-/* line 101, ../scss/tggl.sass */
+/* line 104, ../scss/tggl.sass */
 .tggl-button.blue {
   background-color: #3498db;
   border: 2px solid #1d6fa5;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.blue.toggled {
   background-color: #1d6fa5;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.blue.no-bg-toggle {
   background-color: #3498db;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.blue.bg-hover:hover {
   background-color: #4aa3df;
 }
 
-/* line 104, ../scss/tggl.sass */
+/* line 107, ../scss/tggl.sass */
 .tggl-button.green {
   background-color: #27ae60;
   border: 2px solid #19703e;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.green.toggled {
   background-color: #19703e;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.green.no-bg-toggle {
   background-color: #27ae60;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.green.bg-hover:hover {
   background-color: #2cc36b;
 }
 
-/* line 107, ../scss/tggl.sass */
+/* line 110, ../scss/tggl.sass */
 .tggl-button.grey {
   background-color: #7f8c8d;
   border: 2px solid #5a6465;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.grey.toggled {
   background-color: #5a6465;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.grey.no-bg-toggle {
   background-color: #7f8c8d;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.grey.bg-hover:hover {
   background-color: #8c9899;
 }
 
-/* line 110, ../scss/tggl.sass */
+/* line 113, ../scss/tggl.sass */
 .tggl-button.orange {
   background-color: #e67e22;
   border: 2px solid #a85913;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.orange.toggled {
   background-color: #a85913;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.orange.no-bg-toggle {
   background-color: #e67e22;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.orange.bg-hover:hover {
   background-color: #e98b39;
 }
 
-/* line 113, ../scss/tggl.sass */
+/* line 116, ../scss/tggl.sass */
 .tggl-button.purple {
   background-color: #8e44ad;
   border: 2px solid #612e76;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.purple.toggled {
   background-color: #612e76;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.purple.no-bg-toggle {
   background-color: #8e44ad;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.purple.bg-hover:hover {
   background-color: #9b50ba;
 }
 
-/* line 116, ../scss/tggl.sass */
+/* line 119, ../scss/tggl.sass */
 .tggl-button.yellow {
   background-color: #f1c40f;
   border: 2px solid #aa8a0a;
 }
-/* line 66, ../scss/tggl.sass */
+/* line 69, ../scss/tggl.sass */
 .tggl-button.yellow.toggled {
   background-color: #aa8a0a;
 }
-/* line 69, ../scss/tggl.sass */
+/* line 72, ../scss/tggl.sass */
 .tggl-button.yellow.no-bg-toggle {
   background-color: #f1c40f;
 }
-/* line 72, ../scss/tggl.sass */
+/* line 75, ../scss/tggl.sass */
 .tggl-button.yellow.bg-hover:hover {
   background-color: #f2ca27;
 }
 
-/* line 119, ../scss/tggl.sass */
+/* line 122, ../scss/tggl.sass */
 .tggl-button.no-border {
   border: 0 none;
 }
 
-/* line 122, ../scss/tggl.sass */
+/* line 125, ../scss/tggl.sass */
 .tggl-button.no-hover:hover .tggl-circle {
   background-color: white;
 }
 
-/* line 125, ../scss/tggl.sass */
+/* line 128, ../scss/tggl.sass */
 .tggl-button.tiny {
   width: 24.5px;
   height: 14px;
@@ -293,9 +320,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny .tggl-circle.pill.border {
-  width: 16.8px;
-  height: 14px;
+  width: 12.8px;
+  height: 10px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 24, ../scss/tggl.sass */
 .tggl-button.tiny.expand-hover:hover .tggl-circle {
@@ -304,9 +334,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny.expand-hover:hover .tggl-circle.border {
-  width: 16.8px;
-  height: 14px;
+  width: 12.8px;
+  height: 10px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 27, ../scss/tggl.sass */
 .tggl-button.tiny.tall {
@@ -320,9 +353,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny.tall .tggl-circle.border {
-  width: 16.8px;
-  height: 16.8px;
+  width: 12.8px;
+  height: 12.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 34, ../scss/tggl.sass */
 .tggl-button.tiny.tall .tggl-circle.pill {
@@ -331,9 +367,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny.tall .tggl-circle.pill.border {
-  width: 20.3px;
-  height: 16.8px;
+  width: 16.3px;
+  height: 12.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 37, ../scss/tggl.sass */
 .tggl-button.tiny.tall.expand-hover:hover .tggl-circle {
@@ -342,9 +381,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny.tall.expand-hover:hover .tggl-circle.border {
-  width: 20.3px;
-  height: 16.8px;
+  width: 16.3px;
+  height: 12.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 40, ../scss/tggl.sass */
 .tggl-button.tiny.long {
@@ -358,9 +400,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny.long .tggl-circle.border {
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 47, ../scss/tggl.sass */
 .tggl-button.tiny.long .tggl-circle.pill {
@@ -369,9 +414,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny.long .tggl-circle.pill.border {
-  width: 20.3px;
-  height: 14px;
+  width: 16.3px;
+  height: 10px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 50, ../scss/tggl.sass */
 .tggl-button.tiny.long.expand-hover:hover .tggl-circle {
@@ -380,23 +428,29 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny.long.expand-hover:hover .tggl-circle.border {
-  width: 20.3px;
-  height: 14px;
+  width: 16.3px;
+  height: 10px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
-/* line 127, ../scss/tggl.sass */
+/* line 130, ../scss/tggl.sass */
 .tggl-button.tiny .tggl-circle {
   width: 14px;
   height: 14px;
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.tiny .tggl-circle.border {
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 
-/* line 130, ../scss/tggl.sass */
+/* line 133, ../scss/tggl.sass */
 .tggl-button.small {
   width: 29.75px;
   height: 17px;
@@ -408,9 +462,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small .tggl-circle.pill.border {
-  width: 20.4px;
-  height: 17px;
+  width: 16.4px;
+  height: 13px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 24, ../scss/tggl.sass */
 .tggl-button.small.expand-hover:hover .tggl-circle {
@@ -419,9 +476,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small.expand-hover:hover .tggl-circle.border {
-  width: 20.4px;
-  height: 17px;
+  width: 16.4px;
+  height: 13px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 27, ../scss/tggl.sass */
 .tggl-button.small.tall {
@@ -435,9 +495,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small.tall .tggl-circle.border {
-  width: 20.4px;
-  height: 20.4px;
+  width: 16.4px;
+  height: 16.4px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 34, ../scss/tggl.sass */
 .tggl-button.small.tall .tggl-circle.pill {
@@ -446,9 +509,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small.tall .tggl-circle.pill.border {
-  width: 24.65px;
-  height: 20.4px;
+  width: 20.65px;
+  height: 16.4px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 37, ../scss/tggl.sass */
 .tggl-button.small.tall.expand-hover:hover .tggl-circle {
@@ -457,9 +523,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small.tall.expand-hover:hover .tggl-circle.border {
-  width: 24.65px;
-  height: 20.4px;
+  width: 20.65px;
+  height: 16.4px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 40, ../scss/tggl.sass */
 .tggl-button.small.long {
@@ -473,9 +542,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small.long .tggl-circle.border {
-  width: 17px;
-  height: 17px;
+  width: 13px;
+  height: 13px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 47, ../scss/tggl.sass */
 .tggl-button.small.long .tggl-circle.pill {
@@ -484,9 +556,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small.long .tggl-circle.pill.border {
-  width: 24.65px;
-  height: 17px;
+  width: 20.65px;
+  height: 13px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 50, ../scss/tggl.sass */
 .tggl-button.small.long.expand-hover:hover .tggl-circle {
@@ -495,23 +570,29 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small.long.expand-hover:hover .tggl-circle.border {
-  width: 24.65px;
-  height: 17px;
+  width: 20.65px;
+  height: 13px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
-/* line 132, ../scss/tggl.sass */
+/* line 135, ../scss/tggl.sass */
 .tggl-button.small .tggl-circle {
   width: 17px;
   height: 17px;
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.small .tggl-circle.border {
-  width: 17px;
-  height: 17px;
+  width: 13px;
+  height: 13px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 
-/* line 135, ../scss/tggl.sass */
+/* line 138, ../scss/tggl.sass */
 .tggl-button.large {
   width: 42px;
   height: 24px;
@@ -523,9 +604,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large .tggl-circle.pill.border {
-  width: 28.8px;
-  height: 24px;
+  width: 24.8px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 24, ../scss/tggl.sass */
 .tggl-button.large.expand-hover:hover .tggl-circle {
@@ -534,9 +618,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large.expand-hover:hover .tggl-circle.border {
-  width: 28.8px;
-  height: 24px;
+  width: 24.8px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 27, ../scss/tggl.sass */
 .tggl-button.large.tall {
@@ -550,9 +637,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large.tall .tggl-circle.border {
-  width: 28.8px;
-  height: 28.8px;
+  width: 24.8px;
+  height: 24.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 34, ../scss/tggl.sass */
 .tggl-button.large.tall .tggl-circle.pill {
@@ -561,9 +651,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large.tall .tggl-circle.pill.border {
-  width: 34.8px;
-  height: 28.8px;
+  width: 30.8px;
+  height: 24.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 37, ../scss/tggl.sass */
 .tggl-button.large.tall.expand-hover:hover .tggl-circle {
@@ -572,9 +665,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large.tall.expand-hover:hover .tggl-circle.border {
-  width: 34.8px;
-  height: 28.8px;
+  width: 30.8px;
+  height: 24.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 40, ../scss/tggl.sass */
 .tggl-button.large.long {
@@ -588,9 +684,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large.long .tggl-circle.border {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 47, ../scss/tggl.sass */
 .tggl-button.large.long .tggl-circle.pill {
@@ -599,9 +698,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large.long .tggl-circle.pill.border {
-  width: 34.8px;
-  height: 24px;
+  width: 30.8px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 50, ../scss/tggl.sass */
 .tggl-button.large.long.expand-hover:hover .tggl-circle {
@@ -610,23 +712,29 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large.long.expand-hover:hover .tggl-circle.border {
-  width: 34.8px;
-  height: 24px;
+  width: 30.8px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
-/* line 137, ../scss/tggl.sass */
+/* line 140, ../scss/tggl.sass */
 .tggl-button.large .tggl-circle {
   width: 24px;
   height: 24px;
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.large .tggl-circle.border {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 
-/* line 140, ../scss/tggl.sass */
+/* line 143, ../scss/tggl.sass */
 .tggl-button.huge {
   width: 50.75px;
   height: 29px;
@@ -638,9 +746,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge .tggl-circle.pill.border {
-  width: 34.8px;
-  height: 29px;
+  width: 30.8px;
+  height: 25px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 24, ../scss/tggl.sass */
 .tggl-button.huge.expand-hover:hover .tggl-circle {
@@ -649,9 +760,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge.expand-hover:hover .tggl-circle.border {
-  width: 34.8px;
-  height: 29px;
+  width: 30.8px;
+  height: 25px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 27, ../scss/tggl.sass */
 .tggl-button.huge.tall {
@@ -665,9 +779,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge.tall .tggl-circle.border {
-  width: 34.8px;
-  height: 34.8px;
+  width: 30.8px;
+  height: 30.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 34, ../scss/tggl.sass */
 .tggl-button.huge.tall .tggl-circle.pill {
@@ -676,9 +793,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge.tall .tggl-circle.pill.border {
-  width: 42.05px;
-  height: 34.8px;
+  width: 38.05px;
+  height: 30.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 37, ../scss/tggl.sass */
 .tggl-button.huge.tall.expand-hover:hover .tggl-circle {
@@ -687,9 +807,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge.tall.expand-hover:hover .tggl-circle.border {
-  width: 42.05px;
-  height: 34.8px;
+  width: 38.05px;
+  height: 30.8px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 40, ../scss/tggl.sass */
 .tggl-button.huge.long {
@@ -703,9 +826,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge.long .tggl-circle.border {
-  width: 29px;
-  height: 29px;
+  width: 25px;
+  height: 25px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 47, ../scss/tggl.sass */
 .tggl-button.huge.long .tggl-circle.pill {
@@ -714,9 +840,12 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge.long .tggl-circle.pill.border {
-  width: 42.05px;
-  height: 29px;
+  width: 38.05px;
+  height: 25px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 /* line 50, ../scss/tggl.sass */
 .tggl-button.huge.long.expand-hover:hover .tggl-circle {
@@ -725,18 +854,24 @@
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge.long.expand-hover:hover .tggl-circle.border {
-  width: 42.05px;
-  height: 29px;
+  width: 38.05px;
+  height: 25px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
-/* line 142, ../scss/tggl.sass */
+/* line 145, ../scss/tggl.sass */
 .tggl-button.huge .tggl-circle {
   width: 29px;
   height: 29px;
 }
 /* line 57, ../scss/tggl.sass */
 .tggl-button.huge .tggl-circle.border {
-  width: 29px;
-  height: 29px;
+  width: 25px;
+  height: 25px;
   border: 2px solid #bfbfbf;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
