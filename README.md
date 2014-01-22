@@ -68,7 +68,13 @@ Also note, this site is created using [Foundation](http://foundation.zurb.com/).
 
 [Compass](http://compass-style.org/) is recommended to be used for compiling SASS to CSS. With compass installed, navigate to the root project folder and run ```compass watch```.
 
-If everything is installed, run:
+In most cases, this sequence will work if starting from scratch:
+
+```gem install foundation```
+
+```npm install -g bower grunt-cli```
+
+*note: node needs to be installed*
 
 ```gem install compass```
 
