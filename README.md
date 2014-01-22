@@ -38,6 +38,16 @@ Then simply add the correct div classes to your code, for example:
 * ```tggl-circle``` class ```pill``` overwrites any ```expand-hover``` effect (may be good to leave this way due to sizing issues)
 * Cannot stack ```tall``` and ```long``` classes, or ```tiny``` ```small``` and ```large``` (use other modifiers instead)
 
+### Upcoming
+
+* Add ```thick-border``` class to button
+* Simple JS action plugins
+* FontAwesome Icon Support
+* SASS and/or LESS support
+* On-site customization
+* More circle class support, for example colors for circle.
+* Animation options using CSS3 and/or jQuery plugins
+
 ### How to Contribute
 
 Contribution to the ```<tggl-prjct>``` is greatly needed and greatly appreciated.
@@ -47,13 +57,3 @@ To contribute please fork this repo GitHub, then issue a pull request for any ch
 Also note, this site is created using [Foundation](http://foundation.zurb.com/). It may be useful to review their documents, including using [Bower](http://bower.io/) for dependency management, if you are having any troubles.
 
 [Compass](http://compass-style.org/) is recommended to be used for compiling SASS to CSS. With compass installed, navigate to the root project folder and run ```compass watch```.
-
-### Upcoming
-
-* Add ```thick-border``` class to button
-* Simple JS action plugins
-* Migration to ```button``` HTML element from ```div```
-* SASS and/or LESS support
-* On-site customization
-* More circle class support, for example colors for circle.
-* Animation options using CSS3 and/or jQuery plugins
