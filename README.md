@@ -20,7 +20,7 @@ That's why the ```<tggl-prjct>``` was created. This open source library of toggl
 Either include external links to the ```tggl.css``` and ```tggl.js``` files in your page:
 
 ```html
-<link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/stylesheetes/tggl.css">
+<link rel="stylesheet" type="text/css" href="http://tgolson.github.io/tggl-prjct/stylesheets/tggl.css">
 <script type="text/javascript" src="http://tgolson.github.io/tggl-prjct/js/tggl.js"></script>
 ```
 Or, [download the files directly](https://github.com/TGOlson/tggl-prjct/archive/gh-pages.zip) and use them locally.
@@ -67,3 +67,13 @@ To contribute please fork this repo GitHub, then issue a pull request for any ch
 Also note, this site is created using [Foundation](http://foundation.zurb.com/). It may be useful to review their documents, including using [Bower](http://bower.io/) for dependency management, if you are having any troubles.
 
 [Compass](http://compass-style.org/) is recommended to be used for compiling SASS to CSS. With compass installed, navigate to the root project folder and run ```compass watch```.
+
+If everything is installed, run:
+
+```gem install compass```
+
+Navigate to root project directory.
+
+```foundation update```
+
+```compass watch```
