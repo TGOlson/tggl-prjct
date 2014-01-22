@@ -38,14 +38,14 @@ Then simply add the correct div classes to your code, for example:
 * ```tggl-circle``` class ```pill``` overwrites any ```expand-hover``` effect (may be good to leave this way due to sizing issues)
 * Cannot stack ```tall``` and ```long``` classes, or ```tiny``` ```small``` and ```large``` (use other modifiers instead)
 * Borders break with frameworks that default to ```border-box``` for the ```box-sizing``` attribute.
-  * This should be fixed in most instances, but if error persists try over-riding the styles with ```content-box```
+  * This should be fixed in most instances, but if error persists try over-riding the styles with ```content-box``` as shown below:
 
 ```css
-  .tggl-button{
+.tggl-button{
   box-sizing: content-box;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
-  }
+}
 ```
 
 ### Upcoming
